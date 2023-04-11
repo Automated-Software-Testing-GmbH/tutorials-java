@@ -5,6 +5,10 @@ public class Boundary {
         return false;
     }
 
+    public static void aFunction() {
+
+    }
+
 //    // After refactoring
 //    public static boolean isInsurable(int age) {
 //        if(age < 18 || age >25)
