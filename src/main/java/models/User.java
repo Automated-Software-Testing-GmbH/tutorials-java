@@ -6,20 +6,32 @@ public class User {
 
     private String name;
     private Integer age;
-    private String bio;
+    private String bio = "";
     private UUID uuid;
+
+    public User(String name, Integer age, String bio) {
+        this.name = name;
+        this.age = age;
+        this.bio = bio;
+        genUuid();
+    }
 
     public User(String name, Integer age) {
         this.name = name;
         this.age = age;
+        genUuid();
     }
 
     public UUID getUuid() {
         return uuid;
     }
 
-    public void setUuid() {
+    public void genUuid() {
         this.uuid = UUID.randomUUID();
+    }
+
+    public void setUuid(String uuid) {
+        this.uuid = UUID.fromString(uuid);
     }
 
     public String getName() {
