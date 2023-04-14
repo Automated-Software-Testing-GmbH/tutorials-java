@@ -1721,7 +1721,7 @@
                 },
                 "coveredRepresentatives": [
                   40.0,
-                  73.0
+                  61.0
                 ],
                 "id": 16.0,
                 "name": "M1"
@@ -1744,7 +1744,7 @@
             "name": "M1"
           }
         ],
-        "valid": false,
+        "valid": true,
         "id": 33.0,
         "name": "Scenario1",
         "description": "A description for the scenario",
@@ -1801,24 +1801,7 @@
             ],
             "outputFactors": [
               {
-                "equivalenceClasses": [
-                  {
-                    "representatives": [
-                      {
-                        "value": "{\"fullTypeName\":\"models.User\",\"valueSemantics\":{\"kind\":\"DEFAULT\"},\"value\":null}",
-                        "boundaryType": "NO",
-                        "priority": 0.0,
-                        "id": 87.0,
-                        "name": "ExampleName"
-                      }
-                    ],
-                    "equivalenceClassType": "VALID",
-                    "namedInstanceId": 0.0,
-                    "namedMethodId": 32.0,
-                    "id": 86.0,
-                    "name": "valid"
-                  }
-                ],
+                "equivalenceClasses": [],
                 "fullTypeName": "models.User",
                 "parameterModifier": "NONE",
                 "portType": "EXPECTED_RESULT",
@@ -1836,15 +1819,7 @@
               {
                 "equivalenceClasses": [
                   {
-                    "representatives": [
-                      {
-                        "value": "{\"fullTypeName\":\"models.User\",\"valueSemantics\":{\"kind\":\"SIDE_EFFECT\"},\"value\":null}",
-                        "boundaryType": "NO",
-                        "priority": 0.0,
-                        "id": 73.0,
-                        "name": "Side Effect 1"
-                      }
-                    ],
+                    "representatives": [],
                     "equivalenceClassType": "VALID",
                     "namedInstanceId": 0.0,
                     "namedMethodId": 32.0,
@@ -1863,7 +1838,7 @@
                   {
                     "representatives": [
                       {
-                        "value": "{\"fullTypeName\":\"models.User\",\"valueSemantics\":{\"kind\":\"CUSTOM_ASSERTION\",\"name\":\"checkBio\",\"returnFullTypeName\":\"models.User\",\"rank\":1},\"value\":[{\"name\":\"expected\",\"value\":{\"fullTypeName\":\"java.lang.String\",\"valueSemantics\":{\"kind\":\"DEFAULT\"},\"value\":\"Bio not available\"}}]}",
+                        "value": "{\"fullTypeName\":\"models.User\",\"valueSemantics\":{\"kind\":\"CUSTOM_ASSERTION\",\"name\":\"checkBio\",\"returnFullTypeName\":\"models.User\",\"rank\":1},\"value\":[{\"name\":\"expected\",\"value\":{\"fullTypeName\":\"java.lang.String\",\"valueSemantics\":{\"kind\":\"DEFAULT\"},\"value\":\"No bio available\"}}]}",
                         "boundaryType": "NO",
                         "priority": 0.0,
                         "id": 60.0,

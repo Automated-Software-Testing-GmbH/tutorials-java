@@ -29,7 +29,7 @@ public class ComplexArgsTest {
 	private static void assertCheckBioNoParm(User result, CustomMatcherCheckBioNoParmTestData data) {
 		assertEquals("No bio available", result.getBio());
 	}
-		
+
 	private static void assertCheckBio(User result, CustomMatcherCheckBioTestData data) {
 		assertEquals(data.expectedCustomMatcher, result.getBio());
 	}
