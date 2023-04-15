@@ -1,4 +1,4 @@
-package util.sideeffects;
+package util.simplesteps;
 
 import java.util.Objects;
 

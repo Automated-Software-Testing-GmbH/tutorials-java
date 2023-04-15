@@ -1,6 +1,6 @@
 {
   "testitem_info": {
-    "ID": "b42e0875-3fa3-42a0-a76c-82348dd4af2f",
+    "ID": "d13f80d2-8789-420b-821d-f8ec8d6f1aa7",
     "technique": {
       "name": "EC",
       "version": "3.0"
@@ -39,7 +39,7 @@
       {
         "methods": [
           {
-            "UUID": "de4f3a11-fc07-4f21-85f1-4cdb260ba66d",
+            "UUID": "38a3e0b8-026f-40c9-9adf-238a56f70139",
             "parameters": [
               {
                 "name": "user",
@@ -54,7 +54,7 @@
             "methodType": "METHOD"
           },
           {
-            "UUID": "46bcbdf5-20b8-45ed-b737-497f58051917",
+            "UUID": "e5026b13-b890-4703-9d9a-5d09b43c6164",
             "parameters": [
               {
                 "name": "user",
@@ -69,7 +69,7 @@
             "methodType": "METHOD"
           },
           {
-            "UUID": "29539a7c-3759-484d-b820-9a96d1c073d4",
+            "UUID": "006dd28f-d7dd-4345-997c-659ffe370ba3",
             "parameters": [],
             "name": "ComplexArgs",
             "genericFullTypeNames": [],
@@ -394,7 +394,7 @@
       {
         "methods": [
           {
-            "UUID": "6899bb8c-ddb2-4920-9e04-c77d559e12c0",
+            "UUID": "63413fc3-d8ee-420d-b25d-f18ffdce784d",
             "parameters": [
               {
                 "name": "name",
@@ -417,7 +417,7 @@
             "methodType": "CONSTRUCTOR"
           },
           {
-            "UUID": "266e1acd-90c5-4570-b6af-d9ecab9ddc99",
+            "UUID": "0445d580-b844-4a46-bcfb-d913ca5b6b7c",
             "parameters": [
               {
                 "name": "name",
@@ -436,7 +436,7 @@
             "methodType": "CONSTRUCTOR"
           },
           {
-            "UUID": "c7b01b11-12c9-4565-b552-7021c2553f0e",
+            "UUID": "607cea5b-dfee-4aa3-ba9e-289357993658",
             "parameters": [],
             "name": "getUuid",
             "genericFullTypeNames": [],
@@ -446,7 +446,7 @@
             "methodType": "METHOD"
           },
           {
-            "UUID": "ebc9f1b6-38dd-4d67-850e-5d0d730cd3b0",
+            "UUID": "cad6ab4a-df61-4012-ab81-729cfd60caf9",
             "parameters": [],
             "name": "genUuid",
             "genericFullTypeNames": [],
@@ -456,7 +456,7 @@
             "methodType": "METHOD"
           },
           {
-            "UUID": "cf545fdd-1475-4f81-8cd5-601aa24a2d65",
+            "UUID": "d61a2e65-410f-43c9-b668-c0aed6d287c5",
             "parameters": [
               {
                 "name": "uuid",
@@ -471,7 +471,7 @@
             "methodType": "METHOD"
           },
           {
-            "UUID": "f0c58014-cf36-478f-8a04-74bcd2ce79c4",
+            "UUID": "8e78bd22-8386-42c3-a71e-70d9472295fd",
             "parameters": [],
             "name": "getName",
             "genericFullTypeNames": [],
@@ -481,7 +481,7 @@
             "methodType": "METHOD"
           },
           {
-            "UUID": "548a94f1-3ebb-4c7e-82eb-064a09268a1a",
+            "UUID": "10d473d5-3f31-4714-a280-073f8a5dbc51",
             "parameters": [
               {
                 "name": "name",
@@ -496,7 +496,7 @@
             "methodType": "METHOD"
           },
           {
-            "UUID": "5bc50117-1c40-44aa-8369-9c2f9db9f13b",
+            "UUID": "ed2925fa-35d2-4ca2-a55c-e73503ce9fa0",
             "parameters": [],
             "name": "getAge",
             "genericFullTypeNames": [],
@@ -506,7 +506,7 @@
             "methodType": "METHOD"
           },
           {
-            "UUID": "c0fcc064-357d-4d43-96c6-a3f03e96db7b",
+            "UUID": "34dbb035-c40a-4c23-9806-3420776517c1",
             "parameters": [
               {
                 "name": "age",
@@ -521,7 +521,7 @@
             "methodType": "METHOD"
           },
           {
-            "UUID": "4d762655-defc-464f-88bd-93b58ac32e5a",
+            "UUID": "c672e517-ae17-4c28-8001-edcee716242e",
             "parameters": [],
             "name": "getBio",
             "genericFullTypeNames": [],
@@ -531,7 +531,7 @@
             "methodType": "METHOD"
           },
           {
-            "UUID": "328c5bb0-5ad4-4f78-99bd-34c87c25dbe6",
+            "UUID": "6caf63de-28cd-4997-80e5-7d088ac66728",
             "parameters": [
               {
                 "name": "bio",
@@ -541,6 +541,31 @@
             "name": "setBio",
             "genericFullTypeNames": [],
             "returnTypeName": "void",
+            "isAbstract": false,
+            "isStatic": false,
+            "methodType": "METHOD"
+          },
+          {
+            "UUID": "c4af709b-4cfb-4f6e-bb52-765a06027016",
+            "parameters": [
+              {
+                "name": "o",
+                "fullTypeName": "java.lang.Object"
+              }
+            ],
+            "name": "equals",
+            "genericFullTypeNames": [],
+            "returnTypeName": "boolean",
+            "isAbstract": false,
+            "isStatic": false,
+            "methodType": "METHOD"
+          },
+          {
+            "UUID": "8e4fa92c-cc0b-457f-83f8-6134a0de3b88",
+            "parameters": [],
+            "name": "hashCode",
+            "genericFullTypeNames": [],
+            "returnTypeName": "int",
             "isAbstract": false,
             "isStatic": false,
             "methodType": "METHOD"
@@ -1073,7 +1098,7 @@
       {
         "methods": [
           {
-            "UUID": "a4ff6bc9-4bad-445c-bede-7c8d0db67c64",
+            "UUID": "65c60ae7-dcf8-40a6-ba0f-b39e14005537",
             "parameters": [],
             "name": "Object",
             "genericFullTypeNames": [],
@@ -1083,7 +1108,7 @@
             "methodType": "CONSTRUCTOR"
           },
           {
-            "UUID": "b57b46c6-2152-4008-81e4-386cb2c08d0f",
+            "UUID": "39fa1632-181a-4925-b764-7ec91d0b0821",
             "parameters": [],
             "name": "getClass",
             "genericFullTypeNames": [],
@@ -1093,7 +1118,7 @@
             "methodType": "METHOD"
           },
           {
-            "UUID": "31f5f985-5335-4315-9def-62986470d23b",
+            "UUID": "e7de2522-04d0-4bc2-89ab-481e66bd1500",
             "parameters": [],
             "name": "hashCode",
             "genericFullTypeNames": [],
@@ -1103,7 +1128,7 @@
             "methodType": "METHOD"
           },
           {
-            "UUID": "0d169745-fae2-4eb2-b98a-022ac3ec4714",
+            "UUID": "2e5de902-96ac-4c9b-af8e-2202a2adbb5d",
             "parameters": [
               {
                 "name": "obj",
@@ -1118,7 +1143,7 @@
             "methodType": "METHOD"
           },
           {
-            "UUID": "8c17a38a-54a4-4f6f-bbc2-8510642fe570",
+            "UUID": "995e8867-8b78-407c-a4d0-24280087d508",
             "parameters": [],
             "name": "clone",
             "genericFullTypeNames": [],
@@ -1128,7 +1153,7 @@
             "methodType": "METHOD"
           },
           {
-            "UUID": "c0901b05-7faa-4868-ac5f-80753399c29a",
+            "UUID": "c76a1497-d0bc-4d6a-ab1d-5cd5619025f9",
             "parameters": [],
             "name": "toString",
             "genericFullTypeNames": [],
@@ -1138,7 +1163,7 @@
             "methodType": "METHOD"
           },
           {
-            "UUID": "075f9ad5-e85e-4ab2-9f67-f6c252fe2786",
+            "UUID": "979492f3-296c-4eb2-be95-55d1b45c8353",
             "parameters": [],
             "name": "notify",
             "genericFullTypeNames": [],
@@ -1148,7 +1173,7 @@
             "methodType": "METHOD"
           },
           {
-            "UUID": "1056f566-9baa-4303-b08b-9b051b2c12eb",
+            "UUID": "da503618-f434-4585-a3b0-0a7b2b85969d",
             "parameters": [],
             "name": "notifyAll",
             "genericFullTypeNames": [],
@@ -1158,7 +1183,7 @@
             "methodType": "METHOD"
           },
           {
-            "UUID": "36531632-832e-4aab-8eee-a413e3aeff54",
+            "UUID": "9b13d379-058d-4cbb-8668-ca06019e91e1",
             "parameters": [],
             "name": "wait",
             "genericFullTypeNames": [],
@@ -1168,7 +1193,7 @@
             "methodType": "METHOD"
           },
           {
-            "UUID": "bda50f73-933d-4107-b662-a59339d51893",
+            "UUID": "bf839948-f4df-4263-ad95-f7f8d5225411",
             "parameters": [
               {
                 "name": "timeoutMillis",
@@ -1183,7 +1208,7 @@
             "methodType": "METHOD"
           },
           {
-            "UUID": "5aa1f04f-0c0d-4128-90da-53a9ac2bb63c",
+            "UUID": "f7d0ab23-d4bf-4c7d-aab5-5a3fa22fad97",
             "parameters": [
               {
                 "name": "timeoutMillis",
@@ -1202,7 +1227,7 @@
             "methodType": "METHOD"
           },
           {
-            "UUID": "e35d8846-a826-452e-87ef-f61091ad28a2",
+            "UUID": "9e662283-9230-4925-bbb7-f7d0f32541ff",
             "parameters": [],
             "name": "finalize",
             "genericFullTypeNames": [],
@@ -1241,7 +1266,7 @@
       {
         "methods": [
           {
-            "UUID": "41077238-79b2-4e2f-9c17-b721cc2e5bb4",
+            "UUID": "0dc2c328-a8a1-4884-95cb-fe5e934ba122",
             "parameters": [
               {
                 "name": "mostSigBits",
@@ -1260,7 +1285,7 @@
             "methodType": "CONSTRUCTOR"
           },
           {
-            "UUID": "70c50668-cd64-40f8-9852-52e860d10153",
+            "UUID": "54eefae6-c3ec-46ad-b0af-e88186631dc0",
             "parameters": [],
             "name": "randomUUID",
             "genericFullTypeNames": [],
@@ -1270,7 +1295,7 @@
             "methodType": "METHOD"
           },
           {
-            "UUID": "cebe9b1c-b22d-4157-b561-7e8ef6217723",
+            "UUID": "2a17f1c6-38e9-41b5-929f-f859a67842dc",
             "parameters": [
               {
                 "name": "name",
@@ -1285,7 +1310,7 @@
             "methodType": "METHOD"
           },
           {
-            "UUID": "9b405b08-582f-4e69-a529-06ded1f4a8e4",
+            "UUID": "6d9d018c-3ed6-42f2-983e-ba72ebd37dc3",
             "parameters": [
               {
                 "name": "name",
@@ -1300,7 +1325,7 @@
             "methodType": "METHOD"
           },
           {
-            "UUID": "a828d94a-cd69-42c5-962e-05080ee8a31b",
+            "UUID": "3c636878-c4c6-41b9-98e8-2736aeca2c1b",
             "parameters": [],
             "name": "getLeastSignificantBits",
             "genericFullTypeNames": [],
@@ -1310,7 +1335,7 @@
             "methodType": "METHOD"
           },
           {
-            "UUID": "60e6435e-478e-45fe-9e8c-3414dc2e1e15",
+            "UUID": "89547608-82c8-485c-beb5-81ce731269ba",
             "parameters": [],
             "name": "getMostSignificantBits",
             "genericFullTypeNames": [],
@@ -1320,7 +1345,7 @@
             "methodType": "METHOD"
           },
           {
-            "UUID": "9866944e-b448-45be-ad25-06af90d27a49",
+            "UUID": "3e161ff3-3736-4147-a7b2-bb721652c598",
             "parameters": [],
             "name": "version",
             "genericFullTypeNames": [],
@@ -1330,7 +1355,7 @@
             "methodType": "METHOD"
           },
           {
-            "UUID": "65befc6d-ded5-48a5-bb1a-6896ac1d48f8",
+            "UUID": "6b5959c0-f3f6-4a36-9467-7e0be2ee11ee",
             "parameters": [],
             "name": "variant",
             "genericFullTypeNames": [],
@@ -1340,7 +1365,7 @@
             "methodType": "METHOD"
           },
           {
-            "UUID": "9bac5fd4-bbe9-44fb-aa52-9dc677409801",
+            "UUID": "dfe352fe-4a63-4e49-9a12-7344b1d85b34",
             "parameters": [],
             "name": "timestamp",
             "genericFullTypeNames": [],
@@ -1350,7 +1375,7 @@
             "methodType": "METHOD"
           },
           {
-            "UUID": "525e51ff-9728-4bba-8fa4-7b7a1edc6b5b",
+            "UUID": "d73b132a-7e54-4cbe-817d-ccaa97968aa4",
             "parameters": [],
             "name": "clockSequence",
             "genericFullTypeNames": [],
@@ -1360,7 +1385,7 @@
             "methodType": "METHOD"
           },
           {
-            "UUID": "76fb1336-3048-4090-a129-124ab8dab221",
+            "UUID": "fade5de4-2d10-4594-b47b-559688a8676a",
             "parameters": [],
             "name": "node",
             "genericFullTypeNames": [],
@@ -1370,7 +1395,7 @@
             "methodType": "METHOD"
           },
           {
-            "UUID": "7151e9fe-6e39-4391-b861-f0f7febde5a0",
+            "UUID": "7951195d-8201-4d1e-86fc-37a98f0c7426",
             "parameters": [],
             "name": "toString",
             "genericFullTypeNames": [],
@@ -1380,7 +1405,7 @@
             "methodType": "METHOD"
           },
           {
-            "UUID": "336b1d2a-216d-457a-a7a0-bd094a376506",
+            "UUID": "e36fbf85-b475-4292-9b83-7350f16600c0",
             "parameters": [],
             "name": "hashCode",
             "genericFullTypeNames": [],
@@ -1390,7 +1415,7 @@
             "methodType": "METHOD"
           },
           {
-            "UUID": "513c9813-8603-4dee-8380-b8bb62d759d2",
+            "UUID": "5955ab27-48c1-458a-97b7-6d8d9e389ea7",
             "parameters": [
               {
                 "name": "obj",
@@ -1405,7 +1430,7 @@
             "methodType": "METHOD"
           },
           {
-            "UUID": "796b4f2f-265d-4629-92ee-6bf97244987b",
+            "UUID": "b7237b90-bf57-4dfb-ad0b-074657125c6e",
             "parameters": [
               {
                 "name": "val",
@@ -1498,14 +1523,14 @@
       }
     ],
     "uri": "/Users/freddymay/devmate-examples/devmate-examples/src/main/java/util/complexargs/ComplexArgs.java",
-    "UUID": "b42e0875-3fa3-42a0-a76c-82348dd4af2f",
+    "UUID": "d13f80d2-8789-420b-821d-f8ec8d6f1aa7",
     "testScenarios": [
       {
         "testCases": [
           {
             "testSteps": [
               {
-                "namedMethodId": 114.0,
+                "namedMethodId": 177.0,
                 "inputOffset": {
                   "value": 12.0,
                   "unit": "HOUR",
@@ -1527,16 +1552,16 @@
                   "comment": ""
                 },
                 "coveredRepresentatives": [
-                  121.0,
-                  147.0
+                  184.0,
+                  190.0
                 ],
-                "id": 98.0,
+                "id": 161.0,
                 "name": "M1"
               }
             ],
             "coveredInstanceRepresentatives": [],
             "testCaseType": "POSITIVE",
-            "id": 99.0,
+            "id": 162.0,
             "name": "p1",
             "description": ""
           }
@@ -1545,14 +1570,14 @@
         "methods": [
           {
             "instanceId": 0.0,
-            "testMethodId": 103.0,
+            "testMethodId": 166.0,
             "genericModifiers": [],
-            "id": 114.0,
+            "id": 177.0,
             "name": "M1"
           }
         ],
         "valid": true,
-        "id": 115.0,
+        "id": 178.0,
         "name": "Scenario1",
         "description": "A description for the scenario",
         "comment": "A new scenario"
@@ -1569,50 +1594,67 @@
                   {
                     "representatives": [
                       {
-                        "value": "{\"fullTypeName\":\"models.User\",\"valueSemantics\":{\"kind\":\"DEFAULT\"},\"value\":[{\"name\":\"name\",\"value\":{\"fullTypeName\":\"java.lang.String\",\"valueSemantics\":{\"kind\":\"DEFAULT\"},\"value\":\"John Brook\"}},{\"name\":\"age\",\"value\":{\"fullTypeName\":\"java.lang.Integer\",\"valueSemantics\":{\"kind\":\"DEFAULT\"},\"value\":34}}]}",
+                        "value": "{\"valueSemantics\":{\"kind\":\"DEFAULT\"},\"value\":[{\"name\":\"name\",\"value\":{\"valueSemantics\":{\"kind\":\"DEFAULT\"},\"value\":\"John Brook\",\"fullTypeName\":\"java.lang.String\"}},{\"name\":\"age\",\"value\":{\"valueSemantics\":{\"kind\":\"DEFAULT\"},\"value\":45,\"fullTypeName\":\"java.lang.Integer\"}}],\"fullTypeName\":\"models.User\"}",
                         "boundaryType": "NO",
                         "priority": 0.0,
-                        "id": 121.0,
+                        "id": 184.0,
                         "name": "ExampleName"
                       }
                     ],
                     "equivalenceClassType": "VALID",
                     "namedInstanceId": 0.0,
-                    "namedMethodId": 114.0,
-                    "id": 122.0,
+                    "namedMethodId": 177.0,
+                    "id": 185.0,
                     "name": "valid"
                   },
                   {
                     "representatives": [],
                     "equivalenceClassType": "VALID",
                     "namedInstanceId": 0.0,
-                    "namedMethodId": 114.0,
-                    "id": 123.0,
+                    "namedMethodId": 177.0,
+                    "id": 186.0,
                     "name": "boundaries"
                   },
                   {
                     "representatives": [],
                     "equivalenceClassType": "INVALID",
                     "namedInstanceId": 0.0,
-                    "namedMethodId": 114.0,
-                    "id": 124.0,
+                    "namedMethodId": 177.0,
+                    "id": 187.0,
                     "name": "invalid"
                   }
                 ],
                 "fullTypeName": "models.User",
                 "parameterModifier": "NONE",
                 "portType": "INPUT_PARAMETER",
-                "id": 100.0,
+                "id": 163.0,
                 "name": "user"
               }
             ],
             "outputFactors": [
               {
-                "equivalenceClasses": [],
+                "equivalenceClasses": [
+                  {
+                    "representatives": [
+                      {
+                        "value": "{\"fullTypeName\":\"models.User\",\"valueSemantics\":{\"kind\":\"DEFAULT\"},\"value\":[{\"name\":\"name\",\"value\":{\"fullTypeName\":\"java.lang.String\",\"valueSemantics\":{\"kind\":\"DEFAULT\"},\"value\":\"John Brook\"}},{\"name\":\"age\",\"value\":{\"fullTypeName\":\"java.lang.Integer\",\"valueSemantics\":{\"kind\":\"DEFAULT\"},\"value\":45}},{\"name\":\"bio\",\"value\":{\"fullTypeName\":\"java.lang.String\",\"valueSemantics\":{\"kind\":\"DEFAULT\"},\"value\":\"No bio available\"}}]}",
+                        "boundaryType": "NO",
+                        "priority": 0.0,
+                        "id": 190.0,
+                        "name": "ExampleName"
+                      }
+                    ],
+                    "equivalenceClassType": "VALID",
+                    "namedInstanceId": 0.0,
+                    "namedMethodId": 177.0,
+                    "id": 188.0,
+                    "name": "valid"
+                  }
+                ],
                 "fullTypeName": "models.User",
                 "parameterModifier": "NONE",
                 "portType": "EXPECTED_RESULT",
-                "id": 102.0,
+                "id": 165.0,
                 "name": "Expected Value"
               },
               {
@@ -1620,7 +1662,7 @@
                 "fullTypeName": "java.lang.Exception",
                 "parameterModifier": "NONE",
                 "portType": "EXCEPTION",
-                "id": 101.0,
+                "id": 164.0,
                 "name": "Exception"
               },
               {
@@ -1628,46 +1670,22 @@
                 "fullTypeName": "models.User",
                 "parameterModifier": "NONE",
                 "portType": "SIDE_EFFECT",
-                "id": 117.0,
+                "id": 180.0,
                 "name": "Side Effects"
               },
               {
-                "equivalenceClasses": [
-                  {
-                    "representatives": [
-                      {
-                        "value": "{\"fullTypeName\":\"models.User\",\"valueSemantics\":{\"kind\":\"CUSTOM_ASSERTION\",\"name\":\"IsDefaultBioSet\",\"returnFullTypeName\":\"models.User\",\"rank\":1},\"value\":[]}",
-                        "boundaryType": "NO",
-                        "priority": 0.0,
-                        "id": 146.0,
-                        "name": "ExampleName"
-                      },
-                      {
-                        "value": "{\"fullTypeName\":\"models.User\",\"valueSemantics\":{\"kind\":\"CUSTOM_ASSERTION\",\"name\":\"IsDefaultBioSetWithParameter\",\"returnFullTypeName\":\"models.User\",\"rank\":1},\"value\":[{\"name\":\"expected\",\"value\":{\"fullTypeName\":\"java.lang.String\",\"valueSemantics\":{\"kind\":\"DEFAULT\"},\"value\":\"No bio available\"}}]}",
-                        "boundaryType": "NO",
-                        "priority": 0.0,
-                        "id": 147.0,
-                        "name": "ExampleName"
-                      }
-                    ],
-                    "equivalenceClassType": "VALID",
-                    "namedInstanceId": 0.0,
-                    "namedMethodId": 114.0,
-                    "id": 141.0,
-                    "name": "valid"
-                  }
-                ],
+                "equivalenceClasses": [],
                 "fullTypeName": "models.User",
                 "parameterModifier": "NONE",
                 "portType": "CUSTOM_ASSERTION",
-                "id": 116.0,
+                "id": 179.0,
                 "name": "Custom Assertions"
               }
             ],
             "exceptionsThrown": [],
             "isAsync": false,
             "isStatic": true,
-            "id": 103.0,
+            "id": 166.0,
             "name": "util.complexargs.ComplexArgs.setDefaultBioString"
           }
         ],
@@ -1677,17 +1695,17 @@
           "fullTypeName": "util.complexargs.ComplexArgs",
           "parameterModifier": "NONE",
           "portType": "CLASS_INSTANCE",
-          "id": 98.0,
+          "id": 161.0,
           "name": "this"
         },
-        "id": 99.0,
+        "id": 162.0,
         "name": "ComplexArgs"
       }
     ],
     "testType": "METHOD_TEST",
-    "activeScenarioId": 115.0,
+    "activeScenarioId": 178.0,
     "knownTypes": [],
-    "id": 97.0,
+    "id": 160.0,
     "name": "ComplexArgs"
   }
 }
