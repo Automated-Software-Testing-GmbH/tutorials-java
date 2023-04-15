@@ -1,12 +1,11 @@
-package controllers;
+package mocking.controller;
 
 import io.javalin.Javalin;
 import io.javalin.http.Context;
 import models.User;
-import repositories.user.ISimpleAddUserRepository;
-import repositories.user.SimpleAddUserRepository;
-import services.user.IUserService;
-import services.user.UserService;
+import mocking.repository.ISimpleAddUserRepository;
+import mocking.repository.SimpleAddUserRepository;
+import mocking.service.IUserService;
 
 import static io.javalin.apibuilder.ApiBuilder.*;
 
@@ -32,7 +31,7 @@ public class UserController implements IUserController {
         ctx.json(result);
     }
 
-    public void simpleAddUser(Context ctx) {
+    public void simpleAddUser(Context ctx) throws Exception {
         String name = ctx.queryParamAsClass("name", String.class).get();
         String age = ctx.queryParamAsClass("age", String.class).get();
         User result = userService.simpleAddUser(simpleAddUserRepository, name, age);

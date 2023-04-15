@@ -1,7 +1,8 @@
-package services.user;
+package mocking.service;
 
+import io.javalin.validation.ValidationException;
+import mocking.repository.ISimpleAddUserRepository;
 import models.User;
-import repositories.user.ISimpleAddUserRepository;
 
 public class UserService implements IUserService {
 
@@ -12,7 +13,8 @@ public class UserService implements IUserService {
         return true;
     }
 
-    public User simpleAddUser(ISimpleAddUserRepository simpleAddRepository, String name, String age) {
+    public User simpleAddUser(ISimpleAddUserRepository simpleAddRepository, String name, String age) throws Exception {
+        if(!validateUser(name, age)) throw new Exception("Illegal argument somewhere or other");
         User user = new User(name, Integer.parseInt(age));
         user.setBio("No bio available");
         simpleAddRepository.execute(user);

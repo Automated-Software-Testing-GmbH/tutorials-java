@@ -1,4 +1,4 @@
-package repositories.user;
+package mocking.repository;
 
 import models.User;
 

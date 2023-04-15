@@ -1,10 +1,9 @@
 package org.example;
 
-import controllers.IUserController;
-import controllers.UserController;
+import mocking.controller.UserController;
 import io.javalin.Javalin;
-import services.user.IUserService;
-import services.user.UserService;
+import mocking.service.IUserService;
+import mocking.service.UserService;
 
 public class DevMate {
     public static void main(String[] args) {
