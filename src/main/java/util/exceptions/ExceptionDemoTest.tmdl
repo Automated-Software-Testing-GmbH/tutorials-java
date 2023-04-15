@@ -1,6 +1,6 @@
 {
   "testitem_info": {
-    "ID": "2fa13dbd-5e24-44d2-be7a-d6bf6a2f2e4e",
+    "ID": "2f98fe05-8690-47a9-9ee0-1512ee00eb2e",
     "technique": {
       "name": "EC",
       "version": "3.0"
@@ -491,81 +491,6 @@
         "isAbstract": false
       },
       {
-        "methods": [
-          {
-            "UUID": "75797d67-64a9-4755-8ad2-3e2632b98a88",
-            "parameters": [
-              {
-                "name": "initialSteps",
-                "fullTypeName": "int"
-              }
-            ],
-            "name": "SimpleSteps",
-            "genericFullTypeNames": [],
-            "returnTypeName": "util.simplesteps.SimpleSteps",
-            "isAbstract": false,
-            "isStatic": false,
-            "methodType": "CONSTRUCTOR"
-          },
-          {
-            "UUID": "72c1da13-7a4e-458a-b156-88feab703aa1",
-            "parameters": [
-              {
-                "name": "steps",
-                "fullTypeName": "int"
-              }
-            ],
-            "name": "addSteps",
-            "genericFullTypeNames": [],
-            "returnTypeName": "void",
-            "isAbstract": false,
-            "isStatic": false,
-            "methodType": "METHOD"
-          },
-          {
-            "UUID": "7deb704e-dbb0-44a4-b5a0-b458b5f578d0",
-            "parameters": [
-              {
-                "name": "o",
-                "fullTypeName": "java.lang.Object"
-              }
-            ],
-            "name": "equals",
-            "genericFullTypeNames": [],
-            "returnTypeName": "boolean",
-            "isAbstract": false,
-            "isStatic": false,
-            "methodType": "METHOD"
-          },
-          {
-            "UUID": "df9e208d-6ca7-4058-9b96-05b1d3a2db74",
-            "parameters": [],
-            "name": "hashCode",
-            "genericFullTypeNames": [],
-            "returnTypeName": "int",
-            "isAbstract": false,
-            "isStatic": false,
-            "methodType": "METHOD"
-          }
-        ],
-        "genericFullTypeNames": [],
-        "parentClasses": [],
-        "childClasses": [],
-        "fields": [
-          {
-            "name": "steps",
-            "fullTypeName": "int"
-          }
-        ],
-        "fullName": "util.simplesteps.SimpleSteps",
-        "name": "SimpleSteps",
-        "astTypeName": "ClassType",
-        "nullable": true,
-        "throwable": false,
-        "referenceType": true,
-        "isAbstract": false
-      },
-      {
         "methods": [],
         "genericFullTypeNames": [],
         "parentClasses": [],
@@ -771,6 +696,69 @@
         "isAbstract": false
       },
       {
+        "methods": [
+          {
+            "UUID": "19a87861-c3b0-4a53-9318-81ff6abd3ed9",
+            "parameters": [
+              {
+                "name": "number",
+                "fullTypeName": "int"
+              },
+              {
+                "name": "divisor",
+                "fullTypeName": "int"
+              }
+            ],
+            "name": "generalException",
+            "genericFullTypeNames": [],
+            "returnTypeName": "double",
+            "isAbstract": false,
+            "isStatic": true,
+            "methodType": "METHOD"
+          },
+          {
+            "UUID": "d08393f2-4589-40b6-9cfc-0d92ea9f04e2",
+            "parameters": [
+              {
+                "name": "number",
+                "fullTypeName": "int"
+              },
+              {
+                "name": "divisor",
+                "fullTypeName": "int"
+              }
+            ],
+            "name": "userException",
+            "genericFullTypeNames": [],
+            "returnTypeName": "double",
+            "isAbstract": false,
+            "isStatic": true,
+            "methodType": "METHOD"
+          },
+          {
+            "UUID": "8d340e73-52cf-4394-8f80-a80f1df5717c",
+            "parameters": [],
+            "name": "ExceptionDemo",
+            "genericFullTypeNames": [],
+            "returnTypeName": "util.exceptions.ExceptionDemo",
+            "isAbstract": false,
+            "isStatic": false,
+            "methodType": "CONSTRUCTOR"
+          }
+        ],
+        "genericFullTypeNames": [],
+        "parentClasses": [],
+        "childClasses": [],
+        "fields": [],
+        "fullName": "util.exceptions.ExceptionDemo",
+        "name": "ExceptionDemo",
+        "astTypeName": "ClassType",
+        "nullable": true,
+        "throwable": false,
+        "referenceType": true,
+        "isAbstract": false
+      },
+      {
         "methods": [],
         "genericFullTypeNames": [],
         "parentClasses": [],
@@ -885,6 +873,20 @@
         "isAbstract": false
       },
       {
+        "methods": [],
+        "genericFullTypeNames": [],
+        "parentClasses": [],
+        "childClasses": [],
+        "fields": [],
+        "fullName": "util.exceptions.DivideByZeroException",
+        "name": "DivideByZeroException",
+        "astTypeName": "ClassType",
+        "nullable": true,
+        "throwable": true,
+        "referenceType": false,
+        "isAbstract": false
+      },
+      {
         "size": 16.0,
         "sign": true,
         "fullName": "short",
@@ -898,7 +900,7 @@
       {
         "methods": [
           {
-            "UUID": "bcaa1bc8-1d1e-40bb-9f93-d12956ab0ccc",
+            "UUID": "0317f23e-8f77-4d07-ac53-85f191536925",
             "parameters": [],
             "name": "Object",
             "genericFullTypeNames": [],
@@ -908,7 +910,7 @@
             "methodType": "CONSTRUCTOR"
           },
           {
-            "UUID": "8a48f6cd-c847-4669-b93c-c55f7ee47070",
+            "UUID": "7c68c955-d9c5-4bbf-9ad4-3c4b5da0d262",
             "parameters": [],
             "name": "getClass",
             "genericFullTypeNames": [],
@@ -918,7 +920,7 @@
             "methodType": "METHOD"
           },
           {
-            "UUID": "02859940-e3a4-4cf4-b83e-e45f8cffd13c",
+            "UUID": "621f3921-c9d3-4c19-bbca-72884f55c041",
             "parameters": [],
             "name": "hashCode",
             "genericFullTypeNames": [],
@@ -928,7 +930,7 @@
             "methodType": "METHOD"
           },
           {
-            "UUID": "f3edd886-fe37-4b4a-a2b2-db99bc791bcb",
+            "UUID": "a0c6e0a2-71be-4054-b67b-c26cd8c5819b",
             "parameters": [
               {
                 "name": "obj",
@@ -943,7 +945,7 @@
             "methodType": "METHOD"
           },
           {
-            "UUID": "43e1f713-6098-426b-8308-27bfa5975141",
+            "UUID": "c2de11a2-4e0f-4b5b-8ffd-88e4f186bd10",
             "parameters": [],
             "name": "clone",
             "genericFullTypeNames": [],
@@ -953,7 +955,7 @@
             "methodType": "METHOD"
           },
           {
-            "UUID": "e716c238-4979-4112-800d-42f7fd424acd",
+            "UUID": "e7f2a850-a26d-4fdf-b8e9-96fcc6a260fb",
             "parameters": [],
             "name": "toString",
             "genericFullTypeNames": [],
@@ -963,7 +965,7 @@
             "methodType": "METHOD"
           },
           {
-            "UUID": "b2316714-def5-4967-80f9-6c767fe042b1",
+            "UUID": "7d1474a2-1681-48df-95f4-a8b03a8514f2",
             "parameters": [],
             "name": "notify",
             "genericFullTypeNames": [],
@@ -973,7 +975,7 @@
             "methodType": "METHOD"
           },
           {
-            "UUID": "4e636e09-3e79-4bdd-963b-c5dc0292b19d",
+            "UUID": "beb9896d-d1de-4d28-b719-4bf38ed452e9",
             "parameters": [],
             "name": "notifyAll",
             "genericFullTypeNames": [],
@@ -983,7 +985,7 @@
             "methodType": "METHOD"
           },
           {
-            "UUID": "616802a1-a904-47f9-aeb4-7e719376945b",
+            "UUID": "0fd06726-6a89-4ff5-abe9-48beaa050b1f",
             "parameters": [],
             "name": "wait",
             "genericFullTypeNames": [],
@@ -993,7 +995,7 @@
             "methodType": "METHOD"
           },
           {
-            "UUID": "dd2e8f47-ff3d-403d-bb4c-e345d9fd9aea",
+            "UUID": "ffccd111-ab1d-4e58-bc29-75ea6c20ff55",
             "parameters": [
               {
                 "name": "timeoutMillis",
@@ -1008,7 +1010,7 @@
             "methodType": "METHOD"
           },
           {
-            "UUID": "8baddc43-7aa1-4702-8da7-1b480d2fccf5",
+            "UUID": "867fc332-8495-4dfe-9721-eb636120bb35",
             "parameters": [
               {
                 "name": "timeoutMillis",
@@ -1027,7 +1029,7 @@
             "methodType": "METHOD"
           },
           {
-            "UUID": "ccec8347-6fc3-439a-b02e-3935e80e1e11",
+            "UUID": "4edd0220-6c32-41fa-a33d-5beba7344ec2",
             "parameters": [],
             "name": "finalize",
             "genericFullTypeNames": [],
@@ -1064,15 +1066,15 @@
         "isAbstract": false
       }
     ],
-    "uri": "/Users/freddymay/devmate-examples/devmate-examples/src/main/java/util/simplesteps/SimpleSteps.java",
-    "UUID": "2fa13dbd-5e24-44d2-be7a-d6bf6a2f2e4e",
+    "uri": "/Users/freddymay/devmate-examples/devmate-examples/src/main/java/util/exceptions/ExceptionDemo.java",
+    "UUID": "2f98fe05-8690-47a9-9ee0-1512ee00eb2e",
     "testScenarios": [
       {
         "testCases": [
           {
             "testSteps": [
               {
-                "namedMethodId": 185.0,
+                "namedMethodId": 200.0,
                 "inputOffset": {
                   "value": 12.0,
                   "unit": "HOUR",
@@ -1094,42 +1096,208 @@
                   "comment": ""
                 },
                 "coveredRepresentatives": [
-                  199.0,
-                  231.0,
-                  234.0
+                  212.0,
+                  210.0,
+                  214.0
                 ],
-                "id": 168.0,
+                "id": 183.0,
                 "name": "M1"
+              },
+              {
+                "namedMethodId": 255.0,
+                "inputOffset": {
+                  "value": 12.0,
+                  "unit": "HOUR",
+                  "referencedTestStepId": 0.0,
+                  "offsetType": "END_OF_X",
+                  "id": -1.0,
+                  "name": "a",
+                  "description": "",
+                  "comment": ""
+                },
+                "outputOffset": {
+                  "value": 12.0,
+                  "unit": "HOUR",
+                  "referencedTestStepId": 0.0,
+                  "offsetType": "END_OF_X",
+                  "id": -1.0,
+                  "name": "a",
+                  "description": "",
+                  "comment": ""
+                },
+                "coveredRepresentatives": [
+                  266.0,
+                  264.0,
+                  269.0
+                ],
+                "id": 184.0,
+                "name": "M2"
               }
             ],
-            "coveredInstanceRepresentatives": [
-              195.0
-            ],
+            "coveredInstanceRepresentatives": [],
             "testCaseType": "POSITIVE",
-            "id": 169.0,
+            "id": 185.0,
             "name": "p1",
             "description": ""
-          }
-        ],
-        "instances": [
+          },
           {
-            "testClassId": 169.0,
-            "genericModifiers": [],
-            "id": 184.0,
-            "name": "C1"
+            "testSteps": [
+              {
+                "namedMethodId": 200.0,
+                "inputOffset": {
+                  "value": 12.0,
+                  "unit": "HOUR",
+                  "referencedTestStepId": 0.0,
+                  "offsetType": "END_OF_X",
+                  "id": -1.0,
+                  "name": "a",
+                  "description": "",
+                  "comment": ""
+                },
+                "outputOffset": {
+                  "value": 12.0,
+                  "unit": "HOUR",
+                  "referencedTestStepId": 0.0,
+                  "offsetType": "END_OF_X",
+                  "id": -1.0,
+                  "name": "a",
+                  "description": "",
+                  "comment": ""
+                },
+                "coveredRepresentatives": [
+                  217.0,
+                  210.0,
+                  216.0
+                ],
+                "id": 186.0,
+                "name": "M1"
+              },
+              {
+                "namedMethodId": 255.0,
+                "inputOffset": {
+                  "value": 12.0,
+                  "unit": "HOUR",
+                  "referencedTestStepId": 0.0,
+                  "offsetType": "END_OF_X",
+                  "id": -1.0,
+                  "name": "a",
+                  "description": "",
+                  "comment": ""
+                },
+                "outputOffset": {
+                  "value": 12.0,
+                  "unit": "HOUR",
+                  "referencedTestStepId": 0.0,
+                  "offsetType": "END_OF_X",
+                  "id": -1.0,
+                  "name": "a",
+                  "description": "",
+                  "comment": ""
+                },
+                "coveredRepresentatives": [
+                  266.0,
+                  264.0,
+                  271.0
+                ],
+                "id": 187.0,
+                "name": "M2"
+              }
+            ],
+            "coveredInstanceRepresentatives": [],
+            "testCaseType": "NEGATIVE",
+            "id": 188.0,
+            "name": "n1",
+            "description": "M1:divisor: invalid"
+          },
+          {
+            "testSteps": [
+              {
+                "namedMethodId": 200.0,
+                "inputOffset": {
+                  "value": 12.0,
+                  "unit": "HOUR",
+                  "referencedTestStepId": 0.0,
+                  "offsetType": "END_OF_X",
+                  "id": -1.0,
+                  "name": "a",
+                  "description": "",
+                  "comment": ""
+                },
+                "outputOffset": {
+                  "value": 12.0,
+                  "unit": "HOUR",
+                  "referencedTestStepId": 0.0,
+                  "offsetType": "END_OF_X",
+                  "id": -1.0,
+                  "name": "a",
+                  "description": "",
+                  "comment": ""
+                },
+                "coveredRepresentatives": [
+                  212.0,
+                  210.0,
+                  214.0
+                ],
+                "id": 189.0,
+                "name": "M1"
+              },
+              {
+                "namedMethodId": 255.0,
+                "inputOffset": {
+                  "value": 12.0,
+                  "unit": "HOUR",
+                  "referencedTestStepId": 0.0,
+                  "offsetType": "END_OF_X",
+                  "id": -1.0,
+                  "name": "a",
+                  "description": "",
+                  "comment": ""
+                },
+                "outputOffset": {
+                  "value": 12.0,
+                  "unit": "HOUR",
+                  "referencedTestStepId": 0.0,
+                  "offsetType": "END_OF_X",
+                  "id": -1.0,
+                  "name": "a",
+                  "description": "",
+                  "comment": ""
+                },
+                "coveredRepresentatives": [
+                  267.0,
+                  264.0,
+                  269.0
+                ],
+                "id": 190.0,
+                "name": "M2"
+              }
+            ],
+            "coveredInstanceRepresentatives": [],
+            "testCaseType": "NEGATIVE",
+            "id": 191.0,
+            "name": "n2",
+            "description": "M2:divisor: invalid"
           }
         ],
+        "instances": [],
         "methods": [
           {
-            "instanceId": 184.0,
-            "testMethodId": 173.0,
+            "instanceId": 0.0,
+            "testMethodId": 189.0,
             "genericModifiers": [],
-            "id": 185.0,
+            "id": 200.0,
             "name": "M1"
+          },
+          {
+            "instanceId": 0.0,
+            "testMethodId": 218.0,
+            "genericModifiers": [],
+            "id": 255.0,
+            "name": "M2"
           }
         ],
         "valid": true,
-        "id": 186.0,
+        "id": 201.0,
         "name": "Scenario1",
         "description": "A description for the scenario",
         "comment": "A new scenario"
@@ -1146,41 +1314,90 @@
                   {
                     "representatives": [
                       {
-                        "value": "{\"valueSemantics\":{\"kind\":\"DEFAULT\"},\"value\":10,\"fullTypeName\":\"int\"}",
+                        "value": "{\"fullTypeName\":\"int\",\"valueSemantics\":{\"kind\":\"DEFAULT\"},\"value\":100}",
                         "boundaryType": "NO",
                         "priority": 0.0,
-                        "id": 199.0,
+                        "id": 210.0,
                         "name": "ExampleName"
                       }
                     ],
                     "equivalenceClassType": "VALID",
                     "namedInstanceId": 0.0,
-                    "namedMethodId": 185.0,
-                    "id": 200.0,
+                    "namedMethodId": 200.0,
+                    "id": 204.0,
                     "name": "valid"
                   },
                   {
                     "representatives": [],
                     "equivalenceClassType": "VALID",
                     "namedInstanceId": 0.0,
-                    "namedMethodId": 185.0,
-                    "id": 201.0,
+                    "namedMethodId": 200.0,
+                    "id": 205.0,
                     "name": "boundaries"
                   },
                   {
                     "representatives": [],
                     "equivalenceClassType": "INVALID",
                     "namedInstanceId": 0.0,
-                    "namedMethodId": 185.0,
-                    "id": 202.0,
+                    "namedMethodId": 200.0,
+                    "id": 206.0,
                     "name": "invalid"
                   }
                 ],
                 "fullTypeName": "int",
                 "parameterModifier": "NONE",
                 "portType": "INPUT_PARAMETER",
-                "id": 170.0,
-                "name": "steps"
+                "id": 185.0,
+                "name": "number"
+              },
+              {
+                "equivalenceClasses": [
+                  {
+                    "representatives": [
+                      {
+                        "value": "{\"fullTypeName\":\"int\",\"valueSemantics\":{\"kind\":\"DEFAULT\"},\"value\":20}",
+                        "boundaryType": "NO",
+                        "priority": 0.0,
+                        "id": 212.0,
+                        "name": "ExampleName"
+                      }
+                    ],
+                    "equivalenceClassType": "VALID",
+                    "namedInstanceId": 0.0,
+                    "namedMethodId": 200.0,
+                    "id": 207.0,
+                    "name": "valid"
+                  },
+                  {
+                    "representatives": [],
+                    "equivalenceClassType": "VALID",
+                    "namedInstanceId": 0.0,
+                    "namedMethodId": 200.0,
+                    "id": 208.0,
+                    "name": "boundaries"
+                  },
+                  {
+                    "representatives": [
+                      {
+                        "value": "{\"fullTypeName\":\"int\",\"valueSemantics\":{\"kind\":\"DEFAULT\"},\"value\":0}",
+                        "boundaryType": "NO",
+                        "priority": 0.0,
+                        "id": 217.0,
+                        "name": "ExampleName"
+                      }
+                    ],
+                    "equivalenceClassType": "INVALID",
+                    "namedInstanceId": 0.0,
+                    "namedMethodId": 200.0,
+                    "id": 209.0,
+                    "name": "invalid"
+                  }
+                ],
+                "fullTypeName": "int",
+                "parameterModifier": "NONE",
+                "portType": "INPUT_PARAMETER",
+                "id": 186.0,
+                "name": "divisor"
               }
             ],
             "outputFactors": [
@@ -1189,125 +1406,264 @@
                   {
                     "representatives": [
                       {
-                        "value": "{\"fullTypeName\":\"void\",\"valueSemantics\":{\"kind\":\"DEFAULT\"},\"value\":null}",
+                        "value": "{\"fullTypeName\":\"double\",\"valueSemantics\":{\"kind\":\"DEFAULT\"},\"value\":5}",
                         "boundaryType": "NO",
                         "priority": 0.0,
-                        "id": 231.0,
+                        "id": 214.0,
                         "name": "ExampleName"
                       }
                     ],
                     "equivalenceClassType": "VALID",
                     "namedInstanceId": 0.0,
-                    "namedMethodId": 185.0,
-                    "id": 204.0,
+                    "namedMethodId": 200.0,
+                    "id": 213.0,
                     "name": "valid"
                   }
                 ],
-                "fullTypeName": "void",
+                "fullTypeName": "double",
                 "parameterModifier": "NONE",
                 "portType": "EXPECTED_RESULT",
-                "id": 172.0,
+                "id": 188.0,
                 "name": "Expected Value"
-              },
-              {
-                "equivalenceClasses": [],
-                "fullTypeName": "java.lang.Exception",
-                "parameterModifier": "NONE",
-                "portType": "EXCEPTION",
-                "id": 171.0,
-                "name": "Exception"
               },
               {
                 "equivalenceClasses": [
                   {
                     "representatives": [
                       {
-                        "value": "{\"fullTypeName\":\"util.simplesteps.SimpleSteps\",\"valueSemantics\":{\"kind\":\"SIDE_EFFECT\",\"namedInstanceId\":184},\"value\":[{\"name\":\"initialSteps\",\"value\":{\"fullTypeName\":\"int\",\"valueSemantics\":{\"kind\":\"DEFAULT\"},\"value\":110}}]}",
+                        "value": "{\"fullTypeName\":\"util.exceptions.DivideByZeroException\",\"valueSemantics\":{\"kind\":\"DEFAULT\"},\"value\":[]}",
                         "boundaryType": "NO",
                         "priority": 0.0,
-                        "id": 234.0,
-                        "name": "Side Effect 1"
+                        "id": 216.0,
+                        "name": "ExampleName"
                       }
                     ],
-                    "equivalenceClassType": "VALID",
+                    "equivalenceClassType": "INVALID",
                     "namedInstanceId": 0.0,
-                    "namedMethodId": 185.0,
-                    "id": 233.0,
-                    "name": "valid"
+                    "namedMethodId": 200.0,
+                    "id": 215.0,
+                    "name": "invalid"
                   }
                 ],
-                "fullTypeName": "void",
+                "fullTypeName": "java.lang.Exception",
+                "parameterModifier": "NONE",
+                "portType": "EXCEPTION",
+                "id": 187.0,
+                "name": "Exception"
+              },
+              {
+                "equivalenceClasses": [],
+                "fullTypeName": "double",
                 "parameterModifier": "NONE",
                 "portType": "SIDE_EFFECT",
-                "id": 188.0,
+                "id": 203.0,
                 "name": "Side Effects"
               },
               {
                 "equivalenceClasses": [],
-                "fullTypeName": "void",
+                "fullTypeName": "double",
                 "parameterModifier": "NONE",
                 "portType": "CUSTOM_ASSERTION",
-                "id": 187.0,
+                "id": 202.0,
                 "name": "Custom Assertions"
+              }
+            ],
+            "exceptionsThrown": [
+              "util.exceptions.DivideByZeroException"
+            ],
+            "isAsync": false,
+            "isStatic": true,
+            "id": 189.0,
+            "name": "util.exceptions.ExceptionDemo.userException"
+          },
+          {
+            "inputFactors": [
+              {
+                "equivalenceClasses": [
+                  {
+                    "representatives": [
+                      {
+                        "value": "{\"fullTypeName\":\"int\",\"valueSemantics\":{\"kind\":\"DEFAULT\"},\"value\":100}",
+                        "boundaryType": "NO",
+                        "priority": 0.0,
+                        "id": 264.0,
+                        "name": "ExampleName"
+                      }
+                    ],
+                    "equivalenceClassType": "VALID",
+                    "namedInstanceId": 0.0,
+                    "namedMethodId": 255.0,
+                    "id": 256.0,
+                    "name": "valid"
+                  },
+                  {
+                    "representatives": [],
+                    "equivalenceClassType": "VALID",
+                    "namedInstanceId": 0.0,
+                    "namedMethodId": 255.0,
+                    "id": 257.0,
+                    "name": "boundaries"
+                  },
+                  {
+                    "representatives": [],
+                    "equivalenceClassType": "INVALID",
+                    "namedInstanceId": 0.0,
+                    "namedMethodId": 255.0,
+                    "id": 258.0,
+                    "name": "invalid"
+                  }
+                ],
+                "fullTypeName": "int",
+                "parameterModifier": "NONE",
+                "portType": "INPUT_PARAMETER",
+                "id": 220.0,
+                "name": "number"
+              },
+              {
+                "equivalenceClasses": [
+                  {
+                    "representatives": [
+                      {
+                        "value": "{\"fullTypeName\":\"int\",\"valueSemantics\":{\"kind\":\"DEFAULT\"},\"value\":20}",
+                        "boundaryType": "NO",
+                        "priority": 0.0,
+                        "id": 266.0,
+                        "name": "ExampleName"
+                      }
+                    ],
+                    "equivalenceClassType": "VALID",
+                    "namedInstanceId": 0.0,
+                    "namedMethodId": 255.0,
+                    "id": 259.0,
+                    "name": "valid"
+                  },
+                  {
+                    "representatives": [],
+                    "equivalenceClassType": "VALID",
+                    "namedInstanceId": 0.0,
+                    "namedMethodId": 255.0,
+                    "id": 260.0,
+                    "name": "boundaries"
+                  },
+                  {
+                    "representatives": [
+                      {
+                        "value": "{\"fullTypeName\":\"int\",\"valueSemantics\":{\"kind\":\"DEFAULT\"},\"value\":0}",
+                        "boundaryType": "NO",
+                        "priority": 0.0,
+                        "id": 267.0,
+                        "name": "ExampleName"
+                      }
+                    ],
+                    "equivalenceClassType": "INVALID",
+                    "namedInstanceId": 0.0,
+                    "namedMethodId": 255.0,
+                    "id": 261.0,
+                    "name": "invalid"
+                  }
+                ],
+                "fullTypeName": "int",
+                "parameterModifier": "NONE",
+                "portType": "INPUT_PARAMETER",
+                "id": 221.0,
+                "name": "divisor"
+              }
+            ],
+            "outputFactors": [
+              {
+                "equivalenceClasses": [
+                  {
+                    "representatives": [
+                      {
+                        "value": "{\"fullTypeName\":\"double\",\"valueSemantics\":{\"kind\":\"DEFAULT\"},\"value\":5}",
+                        "boundaryType": "NO",
+                        "priority": 0.0,
+                        "id": 269.0,
+                        "name": "ExampleName"
+                      }
+                    ],
+                    "equivalenceClassType": "VALID",
+                    "namedInstanceId": 0.0,
+                    "namedMethodId": 255.0,
+                    "id": 268.0,
+                    "name": "valid"
+                  }
+                ],
+                "fullTypeName": "double",
+                "parameterModifier": "NONE",
+                "portType": "EXPECTED_RESULT",
+                "id": 222.0,
+                "name": "Expected Value"
+              },
+              {
+                "equivalenceClasses": [
+                  {
+                    "representatives": [
+                      {
+                        "value": "{\"fullTypeName\":\"java.lang.Exception\",\"valueSemantics\":{\"kind\":\"DEFAULT\"},\"value\":[]}",
+                        "boundaryType": "NO",
+                        "priority": 0.0,
+                        "id": 271.0,
+                        "name": "ExampleName"
+                      }
+                    ],
+                    "equivalenceClassType": "INVALID",
+                    "namedInstanceId": 0.0,
+                    "namedMethodId": 255.0,
+                    "id": 270.0,
+                    "name": "invalid"
+                  }
+                ],
+                "fullTypeName": "java.lang.Exception",
+                "parameterModifier": "NONE",
+                "portType": "EXCEPTION",
+                "id": 223.0,
+                "name": "Exception"
+              },
+              {
+                "equivalenceClasses": [],
+                "fullTypeName": "double",
+                "parameterModifier": "NONE",
+                "portType": "SIDE_EFFECT",
+                "id": 225.0,
+                "name": "Side Effects"
+              },
+              {
+                "equivalenceClasses": [],
+                "fullTypeName": "double",
+                "parameterModifier": "NONE",
+                "portType": "CUSTOM_ASSERTION",
+                "id": 224.0,
+                "name": "Custom Assertion"
               }
             ],
             "exceptionsThrown": [],
             "isAsync": false,
-            "isStatic": false,
-            "id": 173.0,
-            "name": "addSteps"
+            "isStatic": true,
+            "methodType": "METHOD",
+            "id": 218.0,
+            "name": "generalException",
+            "description": "",
+            "comment": ""
           }
         ],
-        "uri": "/Users/freddymay/devmate-examples/devmate-examples/src/main/java/util/simplesteps/SimpleSteps.java",
+        "uri": "/Users/freddymay/devmate-examples/devmate-examples/src/main/java/util/exceptions/ExceptionDemo.java",
         "classPort": {
-          "equivalenceClasses": [
-            {
-              "representatives": [
-                {
-                  "value": "{\"fullTypeName\":\"util.simplesteps.SimpleSteps\",\"valueSemantics\":{\"kind\":\"DEFAULT\"},\"value\":[{\"name\":\"initialSteps\",\"value\":{\"fullTypeName\":\"int\",\"valueSemantics\":{\"kind\":\"DEFAULT\"},\"value\":100}}]}",
-                  "boundaryType": "NO",
-                  "priority": 0.0,
-                  "id": 195.0,
-                  "name": "ExampleName"
-                }
-              ],
-              "equivalenceClassType": "VALID",
-              "namedInstanceId": 184.0,
-              "namedMethodId": 0.0,
-              "id": 196.0,
-              "name": "valid"
-            },
-            {
-              "representatives": [],
-              "equivalenceClassType": "VALID",
-              "namedInstanceId": 184.0,
-              "namedMethodId": 0.0,
-              "id": 197.0,
-              "name": "boundaries"
-            },
-            {
-              "representatives": [],
-              "equivalenceClassType": "INVALID",
-              "namedInstanceId": 184.0,
-              "namedMethodId": 0.0,
-              "id": 198.0,
-              "name": "invalid"
-            }
-          ],
-          "fullTypeName": "util.simplesteps.SimpleSteps",
+          "equivalenceClasses": [],
+          "fullTypeName": "util.exceptions.ExceptionDemo",
           "parameterModifier": "NONE",
           "portType": "CLASS_INSTANCE",
-          "id": 168.0,
+          "id": 183.0,
           "name": "this"
         },
-        "id": 169.0,
-        "name": "SimpleSteps"
+        "id": 184.0,
+        "name": "ExceptionDemo"
       }
     ],
     "testType": "METHOD_TEST",
-    "activeScenarioId": 186.0,
+    "activeScenarioId": 201.0,
     "knownTypes": [],
-    "id": 167.0,
-    "name": "SimpleSteps"
+    "id": 182.0,
+    "name": "ExceptionDemo"
   }
 }
