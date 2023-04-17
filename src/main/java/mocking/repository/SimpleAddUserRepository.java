@@ -6,7 +6,7 @@ public class SimpleAddUserRepository implements ISimpleAddUserRepository {
 
     @Override
     public User execute(User user) {
-
+        // No, we're not doing anything meaningful here
         return user;
     }
 

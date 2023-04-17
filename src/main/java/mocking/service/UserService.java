@@ -6,6 +6,12 @@ import models.User;
 
 public class UserService implements IUserService {
 
+    private final ISimpleAddUserRepository addUserRepository;
+
+    public UserService(ISimpleAddUserRepository addUserRepository) {
+        this.addUserRepository = addUserRepository;
+    }
+
     public boolean validateUser(String name, String age) {
         int numAge = Integer.parseInt(age);
         if(name.length() < 4) return false;
@@ -13,12 +19,11 @@ public class UserService implements IUserService {
         return true;
     }
 
-    public User simpleAddUser(ISimpleAddUserRepository simpleAddRepository, String name, String age) throws Exception {
+    public User simpleAddUser(String name, String age) throws Exception {
         if(!validateUser(name, age)) throw new Exception("Illegal argument somewhere or other");
         User user = new User(name, Integer.parseInt(age));
         user.setBio("No bio available");
-        simpleAddRepository.execute(user);
-        return user;
+        return addUserRepository.execute(user);
     }
 
 }

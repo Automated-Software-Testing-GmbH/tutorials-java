@@ -12,7 +12,7 @@ import static io.javalin.apibuilder.ApiBuilder.*;
 public class UserController implements IUserController {
 
     private final IUserService userService;
-    private final ISimpleAddUserRepository simpleAddUserRepository;
+//    private final ISimpleAddUserRepository simpleAddUserRepository;
 
     public UserController(Javalin javalin, IUserService userService) {
         // Configure all routes for this Controller
@@ -20,7 +20,7 @@ public class UserController implements IUserController {
             path("validate", () -> get(this::validateUser));
             path("simple-add", () -> get(this::simpleAddUser));
         }));
-        this.simpleAddUserRepository = new SimpleAddUserRepository();
+//        this.simpleAddUserRepository = new SimpleAddUserRepository();
         this.userService = userService;
     }
 
@@ -34,7 +34,7 @@ public class UserController implements IUserController {
     public void simpleAddUser(Context ctx) throws Exception {
         String name = ctx.queryParamAsClass("name", String.class).get();
         String age = ctx.queryParamAsClass("age", String.class).get();
-        User result = userService.simpleAddUser(simpleAddUserRepository, name, age);
+        User result = userService.simpleAddUser(name, age);
         ctx.json(result);
     }
 }

@@ -31,7 +31,6 @@ public class ComplexArgsTest {
 	@MethodSource({"Scenario1Source"})
 	public void Scenario1Test(Scenario1TestData data, String TestName, String TestDescription) {
 		ActualResultStorage.setStorage(); //saves the results of the called Methods
-		
 		assertion(data, data.S1M1.methodName, null, data.S1M1.expectedResult, data.S1M1.call());
 	}
 //endregion
@@ -39,7 +38,7 @@ public class ComplexArgsTest {
 //region Data
 
 //=========================================================================================================================
-//Please modify this section only in the Modeleditor not here in the code, because otherwise it will cause merge conflicts!
+//Please modify this section only in the Model editor not here in the code, because otherwise it will cause merge conflicts!
 //=========================================================================================================================
 	//A new scenario
 	private static Stream<Arguments> Scenario1Source() {
