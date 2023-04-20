@@ -30,31 +30,30 @@ import models.User;
 @SuppressWarnings("unused")
 public class UserServiceTest {
 	
-//region Factories
+// region Factories
 	private static ISimpleAddUserRepository MockSimpleAddUserRepository(String name, Integer age, String bio) {
 		ISimpleAddUserRepository mockRepo = mock(ISimpleAddUserRepository.class);
 		User expected = new User(name, age, bio);
 		when(mockRepo.execute(any())).thenReturn(expected);
 		return mockRepo;
 	}
-//endregion
+// endregion
 
-//region Scenarios
+// region Scenarios
 	//A new scenario
 	@ParameterizedTest(name = "{1} [{index}] {2}")
 	@MethodSource({"Scenario1Source"})
 	public void Scenario1Test(Scenario1TestData data, String TestName, String TestDescription) {
 		ActualResultStorage.setStorage(); //saves the results of the called Methods
-		
 		assertion(data, data.S1M1.methodName, data.C1, data.S1M1.expectedResult, data.S1M1.call());
 	}
-//endregion
+// endregion
 
 //region Data
 
-//=========================================================================================================================
-//Please modify this section only in the Modeleditor not here in the code, because otherwise it will cause merge conflicts!
-//=========================================================================================================================
+//========================================================
+// Only modify this section in the DevMate editor
+//=========================================================
 	//A new scenario
 	private static Stream<Arguments> Scenario1Source() {
 		return Stream.of(
