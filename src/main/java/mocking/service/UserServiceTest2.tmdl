@@ -1,6 +1,6 @@
 {
   "testitem_info": {
-    "ID": "cb42c2c0-1cd0-4762-b1eb-01dd0b77cb80",
+    "ID": "bc02d4a7-b6d5-4d38-9e1b-350835ddc174",
     "technique": {
       "name": "EC",
       "version": "3.0"
@@ -101,6 +101,59 @@
         "nullable": false,
         "throwable": false,
         "referenceType": false,
+        "isAbstract": false
+      },
+      {
+        "methods": [
+          {
+            "UUID": "532d40b1-a39b-4383-b8be-543f420b3e9e",
+            "parameters": [
+              {
+                "name": "user",
+                "fullTypeName": "models.User"
+              }
+            ],
+            "name": "execute",
+            "genericFullTypeNames": [],
+            "returnTypeName": "models.User",
+            "isAbstract": true,
+            "isStatic": false,
+            "methodType": "METHOD"
+          },
+          {
+            "UUID": "19ac9ff1-7684-4f80-ac80-0eccc840461c",
+            "parameters": [],
+            "name": "ISimpleAddUserRepository",
+            "genericFullTypeNames": [],
+            "returnTypeName": "mocking.repository.ISimpleAddUserRepository",
+            "isAbstract": true,
+            "isStatic": false,
+            "methodType": "CONSTRUCTOR"
+          }
+        ],
+        "genericFullTypeNames": [],
+        "parentClasses": [],
+        "childClasses": [
+          "mocking.repository.SimpleAddUserRepository"
+        ],
+        "fields": [],
+        "fullName": "mocking.repository.ISimpleAddUserRepository",
+        "name": "ISimpleAddUserRepository",
+        "astTypeName": "ClassType",
+        "nullable": true,
+        "throwable": false,
+        "referenceType": true,
+        "isAbstract": true
+      },
+      {
+        "size": 32.0,
+        "sign": true,
+        "fullName": "java.lang.Integer",
+        "name": "int",
+        "astTypeName": "IntegerType",
+        "nullable": true,
+        "throwable": false,
+        "referenceType": true,
         "isAbstract": false
       },
       {
@@ -298,6 +351,81 @@
         "isAbstract": false
       },
       {
+        "methods": [
+          {
+            "UUID": "53f981a4-602e-4fab-bf00-b32becb6eefb",
+            "parameters": [
+              {
+                "name": "addUserRepository",
+                "fullTypeName": "mocking.repository.ISimpleAddUserRepository"
+              }
+            ],
+            "name": "UserService",
+            "genericFullTypeNames": [],
+            "returnTypeName": "mocking.service.UserService",
+            "isAbstract": false,
+            "isStatic": false,
+            "methodType": "CONSTRUCTOR"
+          },
+          {
+            "UUID": "a6faadcf-7be4-40b6-9128-955b2253016f",
+            "parameters": [
+              {
+                "name": "name",
+                "fullTypeName": "java.lang.String"
+              },
+              {
+                "name": "age",
+                "fullTypeName": "java.lang.String"
+              }
+            ],
+            "name": "validateUser",
+            "genericFullTypeNames": [],
+            "returnTypeName": "boolean",
+            "isAbstract": false,
+            "isStatic": false,
+            "methodType": "METHOD"
+          },
+          {
+            "UUID": "b1b6a19c-d3da-413b-8615-64a39b6b222e",
+            "parameters": [
+              {
+                "name": "name",
+                "fullTypeName": "java.lang.String"
+              },
+              {
+                "name": "age",
+                "fullTypeName": "java.lang.String"
+              }
+            ],
+            "name": "simpleAddUser",
+            "genericFullTypeNames": [],
+            "returnTypeName": "models.User",
+            "isAbstract": false,
+            "isStatic": false,
+            "methodType": "METHOD"
+          }
+        ],
+        "genericFullTypeNames": [],
+        "parentClasses": [
+          "mocking.service.IUserService"
+        ],
+        "childClasses": [],
+        "fields": [
+          {
+            "name": "addUserRepository",
+            "fullTypeName": "mocking.repository.ISimpleAddUserRepository"
+          }
+        ],
+        "fullName": "mocking.service.UserService",
+        "name": "UserService",
+        "astTypeName": "ClassType",
+        "nullable": true,
+        "throwable": false,
+        "referenceType": true,
+        "isAbstract": false
+      },
+      {
         "methods": [],
         "genericFullTypeNames": [],
         "parentClasses": [],
@@ -323,6 +451,215 @@
         "nullable": true,
         "throwable": true,
         "referenceType": false,
+        "isAbstract": false
+      },
+      {
+        "methods": [
+          {
+            "UUID": "b12ffd39-c363-49ec-be6d-b738f5168b42",
+            "parameters": [
+              {
+                "name": "name",
+                "fullTypeName": "java.lang.String"
+              },
+              {
+                "name": "age",
+                "fullTypeName": "java.lang.Integer"
+              },
+              {
+                "name": "bio",
+                "fullTypeName": "java.lang.String"
+              }
+            ],
+            "name": "User",
+            "genericFullTypeNames": [],
+            "returnTypeName": "models.User",
+            "isAbstract": false,
+            "isStatic": false,
+            "methodType": "CONSTRUCTOR"
+          },
+          {
+            "UUID": "9e506217-a5ef-4cd3-8f88-64352085f3b8",
+            "parameters": [
+              {
+                "name": "name",
+                "fullTypeName": "java.lang.String"
+              },
+              {
+                "name": "age",
+                "fullTypeName": "java.lang.Integer"
+              }
+            ],
+            "name": "User",
+            "genericFullTypeNames": [],
+            "returnTypeName": "models.User",
+            "isAbstract": false,
+            "isStatic": false,
+            "methodType": "CONSTRUCTOR"
+          },
+          {
+            "UUID": "de6c9419-c223-4a90-829d-6919a3e5ed1f",
+            "parameters": [],
+            "name": "getUuid",
+            "genericFullTypeNames": [],
+            "returnTypeName": "java.util.UUID",
+            "isAbstract": false,
+            "isStatic": false,
+            "methodType": "METHOD"
+          },
+          {
+            "UUID": "28366274-e042-4358-8d67-3cb321c7b8fe",
+            "parameters": [],
+            "name": "genUuid",
+            "genericFullTypeNames": [],
+            "returnTypeName": "void",
+            "isAbstract": false,
+            "isStatic": false,
+            "methodType": "METHOD"
+          },
+          {
+            "UUID": "9da05ef1-2345-4b44-8345-4c867011fdb1",
+            "parameters": [
+              {
+                "name": "uuid",
+                "fullTypeName": "java.lang.String"
+              }
+            ],
+            "name": "setUuid",
+            "genericFullTypeNames": [],
+            "returnTypeName": "void",
+            "isAbstract": false,
+            "isStatic": false,
+            "methodType": "METHOD"
+          },
+          {
+            "UUID": "f2adbfa2-ffca-4610-909d-5410a923fd05",
+            "parameters": [],
+            "name": "getName",
+            "genericFullTypeNames": [],
+            "returnTypeName": "java.lang.String",
+            "isAbstract": false,
+            "isStatic": false,
+            "methodType": "METHOD"
+          },
+          {
+            "UUID": "685e0655-c48f-41c3-84d7-7859e0f46ecd",
+            "parameters": [
+              {
+                "name": "name",
+                "fullTypeName": "java.lang.String"
+              }
+            ],
+            "name": "setName",
+            "genericFullTypeNames": [],
+            "returnTypeName": "void",
+            "isAbstract": false,
+            "isStatic": false,
+            "methodType": "METHOD"
+          },
+          {
+            "UUID": "f9f78a34-35b8-42d4-92a4-769fc7f4d72f",
+            "parameters": [],
+            "name": "getAge",
+            "genericFullTypeNames": [],
+            "returnTypeName": "java.lang.Integer",
+            "isAbstract": false,
+            "isStatic": false,
+            "methodType": "METHOD"
+          },
+          {
+            "UUID": "1899665b-4245-4418-ae7e-a758526284d4",
+            "parameters": [
+              {
+                "name": "age",
+                "fullTypeName": "java.lang.Integer"
+              }
+            ],
+            "name": "setAge",
+            "genericFullTypeNames": [],
+            "returnTypeName": "void",
+            "isAbstract": false,
+            "isStatic": false,
+            "methodType": "METHOD"
+          },
+          {
+            "UUID": "84a3af85-9b71-4f1a-82dd-6543f7955c48",
+            "parameters": [],
+            "name": "getBio",
+            "genericFullTypeNames": [],
+            "returnTypeName": "java.lang.String",
+            "isAbstract": false,
+            "isStatic": false,
+            "methodType": "METHOD"
+          },
+          {
+            "UUID": "8d8ca885-22d4-43a5-b73f-c64b1b58b8c8",
+            "parameters": [
+              {
+                "name": "bio",
+                "fullTypeName": "java.lang.String"
+              }
+            ],
+            "name": "setBio",
+            "genericFullTypeNames": [],
+            "returnTypeName": "void",
+            "isAbstract": false,
+            "isStatic": false,
+            "methodType": "METHOD"
+          },
+          {
+            "UUID": "8fb7703a-8654-4864-aebb-001591396353",
+            "parameters": [
+              {
+                "name": "o",
+                "fullTypeName": "java.lang.Object"
+              }
+            ],
+            "name": "equals",
+            "genericFullTypeNames": [],
+            "returnTypeName": "boolean",
+            "isAbstract": false,
+            "isStatic": false,
+            "methodType": "METHOD"
+          },
+          {
+            "UUID": "d32c73a3-3c40-49b3-adc3-98ea323d9756",
+            "parameters": [],
+            "name": "hashCode",
+            "genericFullTypeNames": [],
+            "returnTypeName": "int",
+            "isAbstract": false,
+            "isStatic": false,
+            "methodType": "METHOD"
+          }
+        ],
+        "genericFullTypeNames": [],
+        "parentClasses": [],
+        "childClasses": [],
+        "fields": [
+          {
+            "name": "name",
+            "fullTypeName": "java.lang.String"
+          },
+          {
+            "name": "age",
+            "fullTypeName": "java.lang.Integer"
+          },
+          {
+            "name": "bio",
+            "fullTypeName": "java.lang.String"
+          },
+          {
+            "name": "uuid",
+            "fullTypeName": "java.util.UUID"
+          }
+        ],
+        "fullName": "models.User",
+        "name": "User",
+        "astTypeName": "ClassType",
+        "nullable": true,
+        "throwable": false,
+        "referenceType": true,
         "isAbstract": false
       },
       {
@@ -463,6 +800,71 @@
         "isAbstract": false
       },
       {
+        "methods": [
+          {
+            "UUID": "c1f7dc3f-4cc9-481f-adbb-ebfe784dbb9a",
+            "parameters": [
+              {
+                "name": "name",
+                "fullTypeName": "java.lang.String"
+              },
+              {
+                "name": "age",
+                "fullTypeName": "java.lang.String"
+              }
+            ],
+            "name": "validateUser",
+            "genericFullTypeNames": [],
+            "returnTypeName": "boolean",
+            "isAbstract": true,
+            "isStatic": false,
+            "methodType": "METHOD"
+          },
+          {
+            "UUID": "dd5683a6-c580-438a-8f3d-235e52d06c87",
+            "parameters": [
+              {
+                "name": "name",
+                "fullTypeName": "java.lang.String"
+              },
+              {
+                "name": "age",
+                "fullTypeName": "java.lang.String"
+              }
+            ],
+            "name": "simpleAddUser",
+            "genericFullTypeNames": [],
+            "returnTypeName": "models.User",
+            "isAbstract": true,
+            "isStatic": false,
+            "methodType": "METHOD"
+          },
+          {
+            "UUID": "dc04caa6-cc35-441d-b1f4-5ff58de26c99",
+            "parameters": [],
+            "name": "IUserService",
+            "genericFullTypeNames": [],
+            "returnTypeName": "mocking.service.IUserService",
+            "isAbstract": true,
+            "isStatic": false,
+            "methodType": "CONSTRUCTOR"
+          }
+        ],
+        "genericFullTypeNames": [],
+        "parentClasses": [],
+        "childClasses": [
+          "mocking.service.UserService"
+        ],
+        "fields": [],
+        "fullName": "mocking.service.IUserService",
+        "name": "IUserService",
+        "astTypeName": "ClassType",
+        "nullable": true,
+        "throwable": false,
+        "referenceType": true,
+        "isAbstract": true
+      },
+      {
         "methods": [],
         "genericFullTypeNames": [],
         "parentClasses": [],
@@ -516,6 +918,16 @@
         "nullable": true,
         "throwable": true,
         "referenceType": false,
+        "isAbstract": false
+      },
+      {
+        "originAstTypeName": "ClassType",
+        "fullName": "mocking.repository.SimpleAddUserRepository",
+        "name": "SimpleAddUserRepository",
+        "astTypeName": "LazyType",
+        "nullable": true,
+        "throwable": false,
+        "referenceType": true,
         "isAbstract": false
       },
       {
@@ -800,46 +1212,6 @@
         "isAbstract": false
       },
       {
-        "methods": [
-          {
-            "UUID": "e2dfdc14-a8d6-45b7-a794-048ada720b24",
-            "parameters": [
-              {
-                "name": "value",
-                "fullTypeName": "java.lang.String"
-              }
-            ],
-            "name": "parsePositiveIntString",
-            "genericFullTypeNames": [],
-            "returnTypeName": "int",
-            "isAbstract": false,
-            "isStatic": true,
-            "methodType": "METHOD"
-          },
-          {
-            "UUID": "962db23e-8c72-4255-b431-96c2c173e6b2",
-            "parameters": [],
-            "name": "Trivialissimo",
-            "genericFullTypeNames": [],
-            "returnTypeName": "util.trivialissimo.Trivialissimo",
-            "isAbstract": false,
-            "isStatic": false,
-            "methodType": "CONSTRUCTOR"
-          }
-        ],
-        "genericFullTypeNames": [],
-        "parentClasses": [],
-        "childClasses": [],
-        "fields": [],
-        "fullName": "util.trivialissimo.Trivialissimo",
-        "name": "Trivialissimo",
-        "astTypeName": "ClassType",
-        "nullable": true,
-        "throwable": false,
-        "referenceType": true,
-        "isAbstract": false
-      },
-      {
         "sign": true,
         "fullName": "char",
         "name": "char",
@@ -863,7 +1235,7 @@
       {
         "methods": [
           {
-            "UUID": "5ee0adce-f2e1-48fc-8778-43d6ee3edd59",
+            "UUID": "129f3378-1f48-4f6c-ac01-d5ce17cd4857",
             "parameters": [],
             "name": "Object",
             "genericFullTypeNames": [],
@@ -873,7 +1245,7 @@
             "methodType": "CONSTRUCTOR"
           },
           {
-            "UUID": "30d57d16-173e-4bc7-845b-482225ecb60a",
+            "UUID": "7d61620a-edcd-460f-961a-f7c7c5f89857",
             "parameters": [],
             "name": "getClass",
             "genericFullTypeNames": [],
@@ -883,7 +1255,7 @@
             "methodType": "METHOD"
           },
           {
-            "UUID": "55eeae0c-8ff2-46f7-9967-d6791e257eab",
+            "UUID": "0447c540-3587-403c-b38b-7bf849e1c83d",
             "parameters": [],
             "name": "hashCode",
             "genericFullTypeNames": [],
@@ -893,7 +1265,7 @@
             "methodType": "METHOD"
           },
           {
-            "UUID": "c2104934-f735-4011-96a0-aa93fcf61a1f",
+            "UUID": "0be3d73e-8643-4354-b57a-c19dfd8bdca2",
             "parameters": [
               {
                 "name": "obj",
@@ -908,7 +1280,7 @@
             "methodType": "METHOD"
           },
           {
-            "UUID": "c9d3739c-ab28-445b-81ea-bc055efe2f9c",
+            "UUID": "63ca2423-2515-45dc-b082-491af6949bb7",
             "parameters": [],
             "name": "clone",
             "genericFullTypeNames": [],
@@ -918,7 +1290,7 @@
             "methodType": "METHOD"
           },
           {
-            "UUID": "65dc9008-9582-4f5b-9541-af6a2076f9ea",
+            "UUID": "1ba387a9-86cc-4aeb-a98a-54fcf966633b",
             "parameters": [],
             "name": "toString",
             "genericFullTypeNames": [],
@@ -928,7 +1300,7 @@
             "methodType": "METHOD"
           },
           {
-            "UUID": "497e5490-fff6-4002-b725-6a85ccfd9948",
+            "UUID": "35f7a091-a1f3-44c7-962c-657c9f650c51",
             "parameters": [],
             "name": "notify",
             "genericFullTypeNames": [],
@@ -938,7 +1310,7 @@
             "methodType": "METHOD"
           },
           {
-            "UUID": "9baac30c-f037-4773-b2d2-a22dafcc54bb",
+            "UUID": "f60a70ff-ea08-49cc-98a4-cede2e16a0b2",
             "parameters": [],
             "name": "notifyAll",
             "genericFullTypeNames": [],
@@ -948,7 +1320,7 @@
             "methodType": "METHOD"
           },
           {
-            "UUID": "c2103d86-cbe8-470d-bf93-d78a8fbe0f48",
+            "UUID": "d853f587-89a2-4e7e-811f-bfc7a24c01d8",
             "parameters": [],
             "name": "wait",
             "genericFullTypeNames": [],
@@ -958,7 +1330,7 @@
             "methodType": "METHOD"
           },
           {
-            "UUID": "73564ed3-ff79-489d-a8de-6074471ca1f0",
+            "UUID": "f531d8df-041a-4c3b-84d4-2a4a9e55f4fa",
             "parameters": [
               {
                 "name": "timeoutMillis",
@@ -973,7 +1345,7 @@
             "methodType": "METHOD"
           },
           {
-            "UUID": "0637f21a-8d39-46b4-9235-1eb39ad23103",
+            "UUID": "f0d305db-7b39-4461-b17a-cf8f339f1e5f",
             "parameters": [
               {
                 "name": "timeoutMillis",
@@ -992,7 +1364,7 @@
             "methodType": "METHOD"
           },
           {
-            "UUID": "397e2e18-0c57-40b8-8c02-7a89baeb02a4",
+            "UUID": "d67328ff-940c-4852-a90c-9bda748df78f",
             "parameters": [],
             "name": "finalize",
             "genericFullTypeNames": [],
@@ -1027,17 +1399,387 @@
         "throwable": true,
         "referenceType": false,
         "isAbstract": false
+      },
+      {
+        "methods": [
+          {
+            "UUID": "82bb825b-5c6d-4587-9081-b164dea57b2a",
+            "parameters": [
+              {
+                "name": "mostSigBits",
+                "fullTypeName": "long"
+              },
+              {
+                "name": "leastSigBits",
+                "fullTypeName": "long"
+              }
+            ],
+            "name": "UUID",
+            "genericFullTypeNames": [],
+            "returnTypeName": "java.util.UUID",
+            "isAbstract": false,
+            "isStatic": false,
+            "methodType": "CONSTRUCTOR"
+          },
+          {
+            "UUID": "3c5efee3-a87d-412b-9573-de7cb17ac742",
+            "parameters": [],
+            "name": "randomUUID",
+            "genericFullTypeNames": [],
+            "returnTypeName": "java.util.UUID",
+            "isAbstract": false,
+            "isStatic": true,
+            "methodType": "METHOD"
+          },
+          {
+            "UUID": "e3003f64-46b1-491c-8552-78caf700b930",
+            "parameters": [
+              {
+                "name": "name",
+                "fullTypeName": "byte[]"
+              }
+            ],
+            "name": "nameUUIDFromBytes",
+            "genericFullTypeNames": [],
+            "returnTypeName": "java.util.UUID",
+            "isAbstract": false,
+            "isStatic": true,
+            "methodType": "METHOD"
+          },
+          {
+            "UUID": "2ea25771-84d9-40f7-8119-bc9a8fa37d95",
+            "parameters": [
+              {
+                "name": "name",
+                "fullTypeName": "java.lang.String"
+              }
+            ],
+            "name": "fromString",
+            "genericFullTypeNames": [],
+            "returnTypeName": "java.util.UUID",
+            "isAbstract": false,
+            "isStatic": true,
+            "methodType": "METHOD"
+          },
+          {
+            "UUID": "6aaa2241-3323-4136-99f2-dbaed3c77485",
+            "parameters": [],
+            "name": "getLeastSignificantBits",
+            "genericFullTypeNames": [],
+            "returnTypeName": "long",
+            "isAbstract": false,
+            "isStatic": false,
+            "methodType": "METHOD"
+          },
+          {
+            "UUID": "d41bd7fc-0ccb-4396-84de-190b88cc7192",
+            "parameters": [],
+            "name": "getMostSignificantBits",
+            "genericFullTypeNames": [],
+            "returnTypeName": "long",
+            "isAbstract": false,
+            "isStatic": false,
+            "methodType": "METHOD"
+          },
+          {
+            "UUID": "60ac3037-6ea1-4693-8d3b-44a145f7eda6",
+            "parameters": [],
+            "name": "version",
+            "genericFullTypeNames": [],
+            "returnTypeName": "int",
+            "isAbstract": false,
+            "isStatic": false,
+            "methodType": "METHOD"
+          },
+          {
+            "UUID": "92857afd-110b-416c-90c4-fc46b589cf2c",
+            "parameters": [],
+            "name": "variant",
+            "genericFullTypeNames": [],
+            "returnTypeName": "int",
+            "isAbstract": false,
+            "isStatic": false,
+            "methodType": "METHOD"
+          },
+          {
+            "UUID": "f8a29578-5365-44e7-b6b1-5cdfdd13eeb7",
+            "parameters": [],
+            "name": "timestamp",
+            "genericFullTypeNames": [],
+            "returnTypeName": "long",
+            "isAbstract": false,
+            "isStatic": false,
+            "methodType": "METHOD"
+          },
+          {
+            "UUID": "26528c67-c523-4637-991c-a0a1917145a8",
+            "parameters": [],
+            "name": "clockSequence",
+            "genericFullTypeNames": [],
+            "returnTypeName": "int",
+            "isAbstract": false,
+            "isStatic": false,
+            "methodType": "METHOD"
+          },
+          {
+            "UUID": "10464c08-1c0f-4aeb-853e-f98c171b2ab9",
+            "parameters": [],
+            "name": "node",
+            "genericFullTypeNames": [],
+            "returnTypeName": "long",
+            "isAbstract": false,
+            "isStatic": false,
+            "methodType": "METHOD"
+          },
+          {
+            "UUID": "6124bf8e-1981-4873-aa5d-94f5997181d3",
+            "parameters": [],
+            "name": "toString",
+            "genericFullTypeNames": [],
+            "returnTypeName": "java.lang.String",
+            "isAbstract": false,
+            "isStatic": false,
+            "methodType": "METHOD"
+          },
+          {
+            "UUID": "a11e87e8-96fa-4650-ade6-93dc44354377",
+            "parameters": [],
+            "name": "hashCode",
+            "genericFullTypeNames": [],
+            "returnTypeName": "int",
+            "isAbstract": false,
+            "isStatic": false,
+            "methodType": "METHOD"
+          },
+          {
+            "UUID": "1329215f-4fe3-4b87-ab89-13c1e94adb0c",
+            "parameters": [
+              {
+                "name": "obj",
+                "fullTypeName": "java.lang.Object"
+              }
+            ],
+            "name": "equals",
+            "genericFullTypeNames": [],
+            "returnTypeName": "boolean",
+            "isAbstract": false,
+            "isStatic": false,
+            "methodType": "METHOD"
+          },
+          {
+            "UUID": "75ab2573-a16f-4292-a805-d3b166d45929",
+            "parameters": [
+              {
+                "name": "val",
+                "fullTypeName": "java.util.UUID"
+              }
+            ],
+            "name": "compareTo",
+            "genericFullTypeNames": [],
+            "returnTypeName": "int",
+            "isAbstract": false,
+            "isStatic": false,
+            "methodType": "METHOD"
+          }
+        ],
+        "genericFullTypeNames": [],
+        "parentClasses": [
+          "java.io.Serializable",
+          "java.lang.Comparable<java.util.UUID>"
+        ],
+        "childClasses": [],
+        "fields": [
+          {
+            "name": "serialVersionUID",
+            "fullTypeName": "long"
+          },
+          {
+            "name": "mostSigBits",
+            "fullTypeName": "long"
+          },
+          {
+            "name": "leastSigBits",
+            "fullTypeName": "long"
+          },
+          {
+            "name": "jla",
+            "fullTypeName": "jdk.internal.access.JavaLangAccess"
+          },
+          {
+            "name": "NIBBLES",
+            "fullTypeName": "byte[]"
+          }
+        ],
+        "fullName": "java.util.UUID",
+        "name": "UUID",
+        "astTypeName": "ClassType",
+        "nullable": true,
+        "throwable": false,
+        "referenceType": true,
+        "isAbstract": false
+      },
+      {
+        "elementFullTypeName": "byte",
+        "fullName": "byte[]",
+        "name": "byte[]",
+        "astTypeName": "ArrayType",
+        "nullable": true,
+        "throwable": false,
+        "referenceType": true,
+        "isAbstract": false
+      },
+      {
+        "originAstTypeName": "ClassType",
+        "fullName": "java.lang.Comparable<java.util.UUID>",
+        "name": "Comparable",
+        "astTypeName": "LazyType",
+        "nullable": true,
+        "throwable": false,
+        "referenceType": true,
+        "isAbstract": false
+      },
+      {
+        "originAstTypeName": "ClassType",
+        "fullName": "jdk.internal.access.JavaLangAccess",
+        "name": "JavaLangAccess",
+        "astTypeName": "LazyType",
+        "nullable": true,
+        "throwable": false,
+        "referenceType": true,
+        "isAbstract": false
+      },
+      {
+        "originAstTypeName": "ClassType",
+        "fullName": "java.io.Serializable",
+        "name": "Serializable",
+        "astTypeName": "LazyType",
+        "nullable": true,
+        "throwable": false,
+        "referenceType": true,
+        "isAbstract": false
+      },
+      {
+        "methods": [
+          {
+            "UUID": "45ecd263-a62e-4af5-99b8-5815b1b63385",
+            "parameters": [
+              {
+                "name": "baseName",
+                "fullTypeName": "java.lang.String"
+              },
+              {
+                "name": "locale",
+                "fullTypeName": "java.util.Locale"
+              }
+            ],
+            "name": "getCandidateLocales",
+            "genericFullTypeNames": [],
+            "returnTypeName": "java.util.List<java.util.Locale>",
+            "isAbstract": true,
+            "isStatic": false,
+            "methodType": "METHOD"
+          },
+          {
+            "UUID": "5b6ee396-feb4-4eb2-aa31-754a8a361f7f",
+            "parameters": [
+              {
+                "name": "baseName",
+                "fullTypeName": "java.lang.String"
+              },
+              {
+                "name": "locale",
+                "fullTypeName": "java.util.Locale"
+              }
+            ],
+            "name": "toBundleName",
+            "genericFullTypeNames": [],
+            "returnTypeName": "java.lang.String",
+            "isAbstract": true,
+            "isStatic": false,
+            "methodType": "METHOD"
+          },
+          {
+            "UUID": "51a19f0a-28c8-4b54-8e86-162a0d4e5714",
+            "parameters": [
+              {
+                "name": "baseName",
+                "fullTypeName": "java.lang.String"
+              },
+              {
+                "name": "locale",
+                "fullTypeName": "java.util.Locale"
+              }
+            ],
+            "name": "getResourceBundleProviderType",
+            "genericFullTypeNames": [],
+            "returnTypeName": "java.lang.Class<? extends java.util.spi.ResourceBundleProvider>",
+            "isAbstract": true,
+            "isStatic": false,
+            "methodType": "METHOD"
+          },
+          {
+            "UUID": "620430fe-883e-4c4a-b637-44c3947fc54a",
+            "parameters": [],
+            "name": "Strategy",
+            "genericFullTypeNames": [],
+            "returnTypeName": "sun.util.resources.Bundles.Strategy",
+            "isAbstract": true,
+            "isStatic": false,
+            "methodType": "CONSTRUCTOR"
+          }
+        ],
+        "genericFullTypeNames": [],
+        "parentClasses": [],
+        "childClasses": [],
+        "fields": [],
+        "fullName": "sun.util.resources.Bundles.Strategy",
+        "name": "Strategy",
+        "astTypeName": "ClassType",
+        "nullable": true,
+        "throwable": false,
+        "referenceType": true,
+        "isAbstract": true
+      },
+      {
+        "elementFullTypeName": "java.util.Locale",
+        "fullName": "java.util.List<java.util.Locale>",
+        "name": "List",
+        "astTypeName": "ValueType",
+        "nullable": true,
+        "throwable": false,
+        "referenceType": true,
+        "isAbstract": true
+      },
+      {
+        "originAstTypeName": "ClassType",
+        "fullName": "java.lang.Class<? extends java.util.spi.ResourceBundleProvider>",
+        "name": "Class",
+        "astTypeName": "LazyType",
+        "nullable": true,
+        "throwable": false,
+        "referenceType": true,
+        "isAbstract": false
+      },
+      {
+        "originAstTypeName": "ClassType",
+        "fullName": "java.util.Locale",
+        "name": "Locale",
+        "astTypeName": "LazyType",
+        "nullable": true,
+        "throwable": false,
+        "referenceType": true,
+        "isAbstract": false
       }
     ],
-    "uri": "/Users/freddymay/devmate-examples/devmate-examples/src/main/java/util/trivialissimo/Trivialissimo.java",
-    "UUID": "cb42c2c0-1cd0-4762-b1eb-01dd0b77cb80",
+    "uri": "/Users/freddymay/devmate-examples/devmate-examples/src/main/java/mocking/service/UserService.java",
+    "UUID": "bc02d4a7-b6d5-4d38-9e1b-350835ddc174",
     "testScenarios": [
       {
         "testCases": [
           {
             "testSteps": [
               {
-                "namedMethodId": 142.0,
+                "namedMethodId": 277.0,
                 "inputOffset": {
                   "value": 12.0,
                   "unit": "HOUR",
@@ -1059,23 +1801,26 @@
                   "comment": ""
                 },
                 "coveredRepresentatives": [
-                  149.0,
-                  157.0
+                  303.0,
+                  290.0,
+                  319.0
                 ],
-                "id": 126.0,
+                "id": 259.0,
                 "name": "M1"
               }
             ],
-            "coveredInstanceRepresentatives": [],
+            "coveredInstanceRepresentatives": [
+              322.0
+            ],
             "testCaseType": "POSITIVE",
-            "id": 127.0,
+            "id": 260.0,
             "name": "p1",
             "description": ""
           },
           {
             "testSteps": [
               {
-                "namedMethodId": 142.0,
+                "namedMethodId": 277.0,
                 "inputOffset": {
                   "value": 12.0,
                   "unit": "HOUR",
@@ -1097,108 +1842,42 @@
                   "comment": ""
                 },
                 "coveredRepresentatives": [
-                  153.0,
-                  159.0
+                  306.0,
+                  290.0,
+                  321.0
                 ],
-                "id": 128.0,
+                "id": 261.0,
                 "name": "M1"
               }
             ],
-            "coveredInstanceRepresentatives": [],
+            "coveredInstanceRepresentatives": [
+              322.0
+            ],
             "testCaseType": "NEGATIVE",
-            "id": 129.0,
+            "id": 262.0,
             "name": "n1",
-            "description": "M1:value: invalid"
-          },
-          {
-            "testSteps": [
-              {
-                "namedMethodId": 142.0,
-                "inputOffset": {
-                  "value": 12.0,
-                  "unit": "HOUR",
-                  "referencedTestStepId": 0.0,
-                  "offsetType": "END_OF_X",
-                  "id": -1.0,
-                  "name": "a",
-                  "description": "",
-                  "comment": ""
-                },
-                "outputOffset": {
-                  "value": 12.0,
-                  "unit": "HOUR",
-                  "referencedTestStepId": 0.0,
-                  "offsetType": "END_OF_X",
-                  "id": -1.0,
-                  "name": "a",
-                  "description": "",
-                  "comment": ""
-                },
-                "coveredRepresentatives": [
-                  154.0,
-                  159.0
-                ],
-                "id": 130.0,
-                "name": "M1"
-              }
-            ],
-            "coveredInstanceRepresentatives": [],
-            "testCaseType": "NEGATIVE",
-            "id": 131.0,
-            "name": "n2",
-            "description": "M1:value: invalid"
-          },
-          {
-            "testSteps": [
-              {
-                "namedMethodId": 142.0,
-                "inputOffset": {
-                  "value": 12.0,
-                  "unit": "HOUR",
-                  "referencedTestStepId": 0.0,
-                  "offsetType": "END_OF_X",
-                  "id": -1.0,
-                  "name": "a",
-                  "description": "",
-                  "comment": ""
-                },
-                "outputOffset": {
-                  "value": 12.0,
-                  "unit": "HOUR",
-                  "referencedTestStepId": 0.0,
-                  "offsetType": "END_OF_X",
-                  "id": -1.0,
-                  "name": "a",
-                  "description": "",
-                  "comment": ""
-                },
-                "coveredRepresentatives": [
-                  170.0,
-                  159.0
-                ],
-                "id": 132.0,
-                "name": "M1"
-              }
-            ],
-            "coveredInstanceRepresentatives": [],
-            "testCaseType": "NEGATIVE",
-            "id": 133.0,
-            "name": "n3",
-            "description": "M1:value: invalid"
+            "description": "M1:name: invalid"
           }
         ],
-        "instances": [],
+        "instances": [
+          {
+            "testClassId": 260.0,
+            "genericModifiers": [],
+            "id": 276.0,
+            "name": "C1"
+          }
+        ],
         "methods": [
           {
-            "instanceId": 0.0,
-            "testMethodId": 131.0,
+            "instanceId": 276.0,
+            "testMethodId": 265.0,
             "genericModifiers": [],
-            "id": 142.0,
+            "id": 277.0,
             "name": "M1"
           }
         ],
         "valid": true,
-        "id": 143.0,
+        "id": 278.0,
         "name": "Scenario1",
         "description": "A description for the scenario",
         "comment": "A new scenario"
@@ -1215,55 +1894,66 @@
                   {
                     "representatives": [
                       {
-                        "value": "{\"valueSemantics\":{\"kind\":\"DEFAULT\"},\"value\":\"10\",\"fullTypeName\":\"java.lang.String\"}",
+                        "value": "{\"fullTypeName\":\"java.lang.String\",\"valueSemantics\":{\"kind\":\"DEFAULT\"},\"value\":\"John Brook\"}",
                         "boundaryType": "NO",
                         "priority": 0.0,
-                        "id": 149.0,
+                        "id": 303.0,
                         "name": "ExampleName"
                       }
                     ],
                     "equivalenceClassType": "VALID",
                     "namedInstanceId": 0.0,
-                    "namedMethodId": 142.0,
-                    "id": 150.0,
+                    "namedMethodId": 277.0,
+                    "id": 304.0,
                     "name": "valid"
                   },
                   {
                     "representatives": [
                       {
-                        "value": "{\"valueSemantics\":{\"kind\":\"DEFAULT\"},\"value\":\"ten\",\"fullTypeName\":\"java.lang.String\"}",
+                        "value": "{\"valueSemantics\":{\"kind\":\"DEFAULT\"},\"value\":\"FM\",\"fullTypeName\":\"java.lang.String\"}",
                         "boundaryType": "NO",
                         "priority": 0.0,
-                        "id": 153.0,
-                        "name": "ExampleName"
-                      },
-                      {
-                        "value": "{\"valueSemantics\":{\"kind\":\"DEFAULT\"},\"value\":\"10.1\",\"fullTypeName\":\"java.lang.String\"}",
-                        "boundaryType": "NO",
-                        "priority": 0.0,
-                        "id": 154.0,
-                        "name": "ExampleName"
-                      },
-                      {
-                        "value": "{\"fullTypeName\":\"java.lang.String\",\"valueSemantics\":{\"kind\":\"DEFAULT\"},\"value\":\"0\"}",
-                        "boundaryType": "NO",
-                        "priority": 0.0,
-                        "id": 170.0,
+                        "id": 306.0,
                         "name": "ExampleName"
                       }
                     ],
                     "equivalenceClassType": "INVALID",
                     "namedInstanceId": 0.0,
-                    "namedMethodId": 142.0,
-                    "id": 155.0,
+                    "namedMethodId": 277.0,
+                    "id": 307.0,
                     "name": "invalid"
                   }
                 ],
                 "fullTypeName": "java.lang.String",
                 "parameterModifier": "NONE",
                 "portType": "INPUT_PARAMETER",
-                "id": 128.0,
-                "name": "value"
+                "id": 261.0,
+                "name": "name"
+              },
+              {
+                "equivalenceClasses": [
+                  {
+                    "representatives": [
+                      {
+                        "value": "{\"fullTypeName\":\"java.lang.String\",\"valueSemantics\":{\"kind\":\"DEFAULT\"},\"value\":\"34\"}",
+                        "boundaryType": "NO",
+                        "priority": 0.0,
+                        "id": 290.0,
+                        "name": "ExampleName"
+                      }
+                    ],
+                    "equivalenceClassType": "VALID",
+                    "namedInstanceId": 0.0,
+                    "namedMethodId": 277.0,
+                    "id": 291.0,
+                    "name": "valid"
+                  }
+                ],
+                "fullTypeName": "java.lang.String",
+                "parameterModifier": "NONE",
+                "portType": "INPUT_PARAMETER",
+                "id": 262.0,
+                "name": "age"
               }
             ],
             "outputFactors": [
@@ -1272,24 +1962,24 @@
                   {
                     "representatives": [
                       {
-                        "value": "{\"fullTypeName\":\"int\",\"valueSemantics\":{\"kind\":\"DEFAULT\"},\"value\":10}",
+                        "value": "{\"fullTypeName\":\"models.User\",\"valueSemantics\":{\"kind\":\"DEFAULT\"},\"value\":[{\"name\":\"name\",\"value\":{\"fullTypeName\":\"java.lang.String\",\"valueSemantics\":{\"kind\":\"DEFAULT\"},\"value\":\"John Brook\"}},{\"name\":\"age\",\"value\":{\"fullTypeName\":\"java.lang.Integer\",\"valueSemantics\":{\"kind\":\"DEFAULT\"},\"value\":34}},{\"name\":\"bio\",\"value\":{\"fullTypeName\":\"java.lang.String\",\"valueSemantics\":{\"kind\":\"DEFAULT\"},\"value\":\"No bio available\"}}]}",
                         "boundaryType": "NO",
                         "priority": 0.0,
-                        "id": 157.0,
+                        "id": 319.0,
                         "name": "ExampleName"
                       }
                     ],
                     "equivalenceClassType": "VALID",
                     "namedInstanceId": 0.0,
-                    "namedMethodId": 142.0,
-                    "id": 156.0,
+                    "namedMethodId": 277.0,
+                    "id": 318.0,
                     "name": "valid"
                   }
                 ],
-                "fullTypeName": "int",
+                "fullTypeName": "models.User",
                 "parameterModifier": "NONE",
                 "portType": "EXPECTED_RESULT",
-                "id": 130.0,
+                "id": 264.0,
                 "name": "Expected Value"
               },
               {
@@ -1300,37 +1990,37 @@
                         "value": "{\"fullTypeName\":\"java.lang.Exception\",\"valueSemantics\":{\"kind\":\"DEFAULT\"},\"value\":[]}",
                         "boundaryType": "NO",
                         "priority": 0.0,
-                        "id": 159.0,
+                        "id": 321.0,
                         "name": "ExampleName"
                       }
                     ],
                     "equivalenceClassType": "INVALID",
                     "namedInstanceId": 0.0,
-                    "namedMethodId": 142.0,
-                    "id": 158.0,
+                    "namedMethodId": 277.0,
+                    "id": 320.0,
                     "name": "invalid"
                   }
                 ],
                 "fullTypeName": "java.lang.Exception",
                 "parameterModifier": "NONE",
                 "portType": "EXCEPTION",
-                "id": 129.0,
+                "id": 263.0,
                 "name": "Exception"
               },
               {
                 "equivalenceClasses": [],
-                "fullTypeName": "int",
+                "fullTypeName": "models.User",
                 "parameterModifier": "NONE",
                 "portType": "SIDE_EFFECT",
-                "id": 145.0,
+                "id": 280.0,
                 "name": "Side Effects"
               },
               {
                 "equivalenceClasses": [],
-                "fullTypeName": "int",
+                "fullTypeName": "models.User",
                 "parameterModifier": "NONE",
                 "portType": "CUSTOM_ASSERTION",
-                "id": 144.0,
+                "id": 279.0,
                 "name": "Custom Assertions"
               }
             ],
@@ -1338,28 +2028,61 @@
               "java.lang.Exception"
             ],
             "isAsync": false,
-            "isStatic": true,
-            "id": 131.0,
-            "name": "util.trivialissimo.Trivialissimo.parsePositiveIntString"
+            "isStatic": false,
+            "id": 265.0,
+            "name": "simpleAddUser"
           }
         ],
-        "uri": "/Users/freddymay/devmate-examples/devmate-examples/src/main/java/util/trivialissimo/Trivialissimo.java",
+        "uri": "/Users/freddymay/devmate-examples/devmate-examples/src/main/java/mocking/service/UserService.java",
         "classPort": {
-          "equivalenceClasses": [],
-          "fullTypeName": "util.trivialissimo.Trivialissimo",
+          "equivalenceClasses": [
+            {
+              "representatives": [
+                {
+                  "value": "{\"fullTypeName\":\"mocking.service.UserService\",\"valueSemantics\":{\"kind\":\"DEFAULT\"},\"value\":[{\"name\":\"addUserRepository\",\"value\":{\"fullTypeName\":\"mocking.repository.ISimpleAddUserRepository\",\"valueSemantics\":{\"kind\":\"FACTORY\",\"name\":\"mockSimpleAddUserRepository\",\"rank\":1},\"value\":[{\"name\":\"name\",\"value\":{\"fullTypeName\":\"java.lang.String\",\"valueSemantics\":{\"kind\":\"DEFAULT\"},\"value\":\"John Brook\"}},{\"name\":\"age\",\"value\":{\"fullTypeName\":\"int\",\"valueSemantics\":{\"kind\":\"DEFAULT\"},\"value\":34}},{\"name\":\"bio\",\"value\":{\"fullTypeName\":\"java.lang.String\",\"valueSemantics\":{\"kind\":\"DEFAULT\"},\"value\":\"No bio available\"}}]}}]}",
+                  "boundaryType": "NO",
+                  "priority": 0.0,
+                  "id": 322.0,
+                  "name": "ExampleName"
+                }
+              ],
+              "equivalenceClassType": "VALID",
+              "namedInstanceId": 276.0,
+              "namedMethodId": 0.0,
+              "id": 300.0,
+              "name": "valid"
+            },
+            {
+              "representatives": [],
+              "equivalenceClassType": "VALID",
+              "namedInstanceId": 276.0,
+              "namedMethodId": 0.0,
+              "id": 301.0,
+              "name": "boundaries"
+            },
+            {
+              "representatives": [],
+              "equivalenceClassType": "INVALID",
+              "namedInstanceId": 276.0,
+              "namedMethodId": 0.0,
+              "id": 302.0,
+              "name": "invalid"
+            }
+          ],
+          "fullTypeName": "mocking.service.UserService",
           "parameterModifier": "NONE",
           "portType": "CLASS_INSTANCE",
-          "id": 126.0,
+          "id": 259.0,
           "name": "this"
         },
-        "id": 127.0,
-        "name": "Trivialissimo"
+        "id": 260.0,
+        "name": "UserService"
       }
     ],
     "testType": "METHOD_TEST",
-    "activeScenarioId": 143.0,
+    "activeScenarioId": 278.0,
     "knownTypes": [],
-    "id": 125.0,
-    "name": "Trivialissimo"
+    "id": 258.0,
+    "name": "UserService"
   }
 }

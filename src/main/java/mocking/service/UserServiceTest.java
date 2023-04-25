@@ -8,9 +8,6 @@ package mocking.service;
 import static org.junit.jupiter.api.Assertions.assertDoesNotThrow;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.junit.jupiter.api.Assertions.assertThrows;
-import static org.mockito.ArgumentMatchers.any;
-import static org.mockito.Mockito.mock;
-import static org.mockito.Mockito.when;
 
 import java.util.HashMap;
 import java.util.List;
@@ -30,14 +27,12 @@ import models.User;
 @SuppressWarnings("unused")
 public class UserServiceTest {
 	
-// region Factories
+	// region Factories
 	private static ISimpleAddUserRepository MockSimpleAddUserRepository(String name, Integer age, String bio) {
-		ISimpleAddUserRepository mockRepo = mock(ISimpleAddUserRepository.class);
-		User expected = new User(name, age, bio);
-		when(mockRepo.execute(any())).thenReturn(expected);
-		return mockRepo;
+		// TODO implement factory
+		throw new UnsupportedOperationException();
 	}
-// endregion
+	// endregion
 
 // region Scenarios
 	//A new scenario
@@ -45,15 +40,16 @@ public class UserServiceTest {
 	@MethodSource({"Scenario1Source"})
 	public void Scenario1Test(Scenario1TestData data, String TestName, String TestDescription) {
 		ActualResultStorage.setStorage(); //saves the results of the called Methods
+		
 		assertion(data, data.S1M1.methodName, data.C1, data.S1M1.expectedResult, data.S1M1.call());
 	}
-// endregion
+//endregion
 
 //region Data
 
-//========================================================
-// Only modify this section in the DevMate editor
-//=========================================================
+//=========================================================================================================================
+//Please modify this section only in the Modeleditor not here in the code, because otherwise it will cause merge conflicts!
+//=========================================================================================================================
 	//A new scenario
 	private static Stream<Arguments> Scenario1Source() {
 		return Stream.of(
