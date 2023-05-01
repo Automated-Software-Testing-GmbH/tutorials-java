@@ -8,6 +8,11 @@ public class Boundary {
 
 }
 
+//    // Before implementation
+//    public static boolean isInsurable(int age) {
+//        return false;
+//    }
+
 //    // After implementation
 //    public static boolean isInsurable(int age) {
 //        if(age < 18 || age >25)

@@ -2,17 +2,15 @@ package util.trivialissimo;
 
 public class Trivialissimo {
 
-    public static int parsePositiveIntString(String value) throws Exception {
-        int convertedValue = Integer.parseInt(value);
-        return convertedValue;
+    public static int parsePositiveIntString(String value) {
+        return Integer.parseInt(value);
     }
 
 }
 
 //    // Basic method without the validation check for "0"
-//    public static int parsePositiveIntString(String value) throws Exception {
-//        int convertedValue = Integer.parseInt(value);
-//        return convertedValue;
+//    public static int parsePositiveIntString(String value) {
+//        return Integer.parseInt(value);
 //    }
 
 //    // Refactored code to fix the "0" test case

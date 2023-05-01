@@ -18,3 +18,8 @@ public class ComplexArgs {
 
 }
 
+//// Factory Method for Custom Assertion - First Way
+//assertEquals("No bio available", result.getBio());
+
+//// Factory Method for Custom Assertion - Second Way
+//assertEquals(data.expectedCustomMatcher, result.getBio());
