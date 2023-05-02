@@ -1,6 +1,6 @@
 {
   "testitem_info": {
-    "ID": "d02e748a-48b7-4ca8-98a5-05db856dbe91",
+    "ID": "530cc974-87cb-4c65-a49d-53a7d7210e91",
     "technique": {
       "name": "EC",
       "version": "3.0"
@@ -824,7 +824,7 @@
       {
         "methods": [
           {
-            "UUID": "32eebd9d-88b0-4a81-b2a4-20cf41fe6830",
+            "UUID": "6c9f1782-2cc9-45e1-af1a-fe624b41cf56",
             "parameters": [],
             "name": "Object",
             "genericFullTypeNames": [],
@@ -834,7 +834,7 @@
             "methodType": "CONSTRUCTOR"
           },
           {
-            "UUID": "870f7dc6-7fd1-406c-9de5-f72875507db5",
+            "UUID": "c0b6dda0-9457-410e-ae20-949d9c61c688",
             "parameters": [],
             "name": "getClass",
             "genericFullTypeNames": [],
@@ -844,7 +844,7 @@
             "methodType": "METHOD"
           },
           {
-            "UUID": "07f19eb3-c5d4-4a79-811d-154f85b8df6f",
+            "UUID": "9102f3d5-0a71-411a-9ea5-320dfbf0519b",
             "parameters": [],
             "name": "hashCode",
             "genericFullTypeNames": [],
@@ -854,7 +854,7 @@
             "methodType": "METHOD"
           },
           {
-            "UUID": "fdf4b4c7-0a24-4519-88a4-9b7a94503e1a",
+            "UUID": "aee80e41-ddda-481b-8b2d-666c8f589ab3",
             "parameters": [
               {
                 "name": "obj",
@@ -869,7 +869,7 @@
             "methodType": "METHOD"
           },
           {
-            "UUID": "c4680ea5-fb51-434d-ae19-abf832e16c8c",
+            "UUID": "9d796585-158d-4b72-86e2-1cb813c37471",
             "parameters": [],
             "name": "clone",
             "genericFullTypeNames": [],
@@ -879,7 +879,7 @@
             "methodType": "METHOD"
           },
           {
-            "UUID": "2acf54aa-f45b-4a2a-8ddd-68b9b3115c60",
+            "UUID": "7c81e01e-bb60-41ce-b102-6ba597fe9ace",
             "parameters": [],
             "name": "toString",
             "genericFullTypeNames": [],
@@ -889,7 +889,7 @@
             "methodType": "METHOD"
           },
           {
-            "UUID": "a54a7258-af97-4ee2-bb29-00af41f3f6d6",
+            "UUID": "d38ada45-1c12-413e-b289-ceb9cbcf7417",
             "parameters": [],
             "name": "notify",
             "genericFullTypeNames": [],
@@ -899,7 +899,7 @@
             "methodType": "METHOD"
           },
           {
-            "UUID": "09aa4268-0edc-41a8-9a1d-5a99439c39e8",
+            "UUID": "3663b930-94e9-4d02-a9ee-5b4842c43cca",
             "parameters": [],
             "name": "notifyAll",
             "genericFullTypeNames": [],
@@ -909,7 +909,7 @@
             "methodType": "METHOD"
           },
           {
-            "UUID": "4912ad69-0c98-4217-a188-36a82d2b7b5f",
+            "UUID": "8cc1acf1-4aca-48a5-96e1-506c5b49dc12",
             "parameters": [],
             "name": "wait",
             "genericFullTypeNames": [],
@@ -919,7 +919,7 @@
             "methodType": "METHOD"
           },
           {
-            "UUID": "2e905d9e-bb43-4e79-b31a-eeb10642b47b",
+            "UUID": "460248bd-dc8c-4119-8100-1eb0036b8ae3",
             "parameters": [
               {
                 "name": "timeoutMillis",
@@ -934,7 +934,7 @@
             "methodType": "METHOD"
           },
           {
-            "UUID": "ca8d5655-6b5b-42c8-8109-550b7e12bd17",
+            "UUID": "8b8b4f23-240e-4df2-8ea7-848ae5a4aa0f",
             "parameters": [
               {
                 "name": "timeoutMillis",
@@ -953,7 +953,7 @@
             "methodType": "METHOD"
           },
           {
-            "UUID": "036b17dd-0cf2-4c32-aabc-814cea9bb226",
+            "UUID": "5b322357-612a-4321-ab1d-361882d23987",
             "parameters": [],
             "name": "finalize",
             "genericFullTypeNames": [],
@@ -978,7 +978,7 @@
       {
         "methods": [
           {
-            "UUID": "4ba33ae5-9241-4cf9-ba46-386e2095e02b",
+            "UUID": "eef3be27-7183-40e9-8af6-eea82c860292",
             "parameters": [
               {
                 "name": "input",
@@ -993,7 +993,7 @@
             "methodType": "METHOD"
           },
           {
-            "UUID": "77c1201c-1151-40ea-83b8-b4dcfa6e5ebb",
+            "UUID": "06a9196e-92ad-4d1a-aa9d-914121996c98",
             "parameters": [],
             "name": "Chain",
             "genericFullTypeNames": [],
@@ -1031,43 +1031,14 @@
       }
     ],
     "uri": "/Users/freddymay/devmate-examples/devmate-examples/src/main/java/util/chaining/Chain.java",
-    "UUID": "d02e748a-48b7-4ca8-98a5-05db856dbe91",
+    "UUID": "530cc974-87cb-4c65-a49d-53a7d7210e91",
     "testScenarios": [
       {
         "testCases": [
           {
             "testSteps": [
               {
-                "namedMethodId": 71.0,
-                "inputOffset": {
-                  "value": 12.0,
-                  "unit": "HOUR",
-                  "referencedTestStepId": 0.0,
-                  "offsetType": "END_OF_X",
-                  "id": -1.0,
-                  "name": "a",
-                  "description": "",
-                  "comment": ""
-                },
-                "outputOffset": {
-                  "value": 12.0,
-                  "unit": "HOUR",
-                  "referencedTestStepId": 0.0,
-                  "offsetType": "END_OF_X",
-                  "id": -1.0,
-                  "name": "a",
-                  "description": "",
-                  "comment": ""
-                },
-                "coveredRepresentatives": [
-                  78.0,
-                  84.0
-                ],
-                "id": 55.0,
-                "name": "M1"
-              },
-              {
-                "namedMethodId": 94.0,
+                "namedMethodId": 85.0,
                 "inputOffset": {
                   "value": 12.0,
                   "unit": "HOUR",
@@ -1090,22 +1061,51 @@
                 },
                 "coveredRepresentatives": [
                   100.0,
-                  102.0
+                  97.0
                 ],
-                "id": 56.0,
+                "id": 69.0,
+                "name": "M1"
+              },
+              {
+                "namedMethodId": 110.0,
+                "inputOffset": {
+                  "value": 12.0,
+                  "unit": "HOUR",
+                  "referencedTestStepId": 0.0,
+                  "offsetType": "END_OF_X",
+                  "id": -1.0,
+                  "name": "a",
+                  "description": "",
+                  "comment": ""
+                },
+                "outputOffset": {
+                  "value": 12.0,
+                  "unit": "HOUR",
+                  "referencedTestStepId": 0.0,
+                  "offsetType": "END_OF_X",
+                  "id": -1.0,
+                  "name": "a",
+                  "description": "",
+                  "comment": ""
+                },
+                "coveredRepresentatives": [
+                  117.0,
+                  119.0
+                ],
+                "id": 114.0,
                 "name": "M2"
               }
             ],
             "coveredInstanceRepresentatives": [],
             "testCaseType": "POSITIVE",
-            "id": 57.0,
+            "id": 70.0,
             "name": "p1",
             "description": ""
           },
           {
             "testSteps": [
               {
-                "namedMethodId": 71.0,
+                "namedMethodId": 85.0,
                 "inputOffset": {
                   "value": 12.0,
                   "unit": "HOUR",
@@ -1127,14 +1127,14 @@
                   "comment": ""
                 },
                 "coveredRepresentatives": [
-                  81.0,
-                  86.0
+                  102.0,
+                  98.0
                 ],
-                "id": 58.0,
+                "id": 71.0,
                 "name": "M1"
               },
               {
-                "namedMethodId": 94.0,
+                "namedMethodId": 110.0,
                 "inputOffset": {
                   "value": 12.0,
                   "unit": "HOUR",
@@ -1156,16 +1156,16 @@
                   "comment": ""
                 },
                 "coveredRepresentatives": [
-                  100.0,
-                  104.0
+                  121.0,
+                  117.0
                 ],
-                "id": 59.0,
+                "id": 115.0,
                 "name": "M2"
               }
             ],
             "coveredInstanceRepresentatives": [],
             "testCaseType": "NEGATIVE",
-            "id": 60.0,
+            "id": 72.0,
             "name": "n1",
             "description": "M1:input: invalid"
           }
@@ -1174,21 +1174,21 @@
         "methods": [
           {
             "instanceId": 0.0,
-            "testMethodId": 60.0,
+            "testMethodId": 74.0,
             "genericModifiers": [],
-            "id": 71.0,
+            "id": 85.0,
             "name": "M1"
           },
           {
             "instanceId": 0.0,
-            "testMethodId": 87.0,
+            "testMethodId": 103.0,
             "genericModifiers": [],
-            "id": 94.0,
+            "id": 110.0,
             "name": "M2"
           }
         ],
         "valid": true,
-        "id": 72.0,
+        "id": 86.0,
         "name": "Scenario1",
         "description": "A description for the scenario",
         "comment": "A new scenario"
@@ -1205,48 +1205,48 @@
                   {
                     "representatives": [
                       {
-                        "value": "{\"valueSemantics\":{\"kind\":\"DEFAULT\"},\"value\":3,\"fullTypeName\":\"int\"}",
+                        "value": "{\"fullTypeName\":\"int\",\"valueSemantics\":{\"kind\":\"DEFAULT\"},\"value\":3}",
                         "boundaryType": "NO",
                         "priority": 0.0,
-                        "id": 78.0,
+                        "id": 97.0,
                         "name": "ExampleName"
                       }
                     ],
                     "equivalenceClassType": "VALID",
                     "namedInstanceId": 0.0,
-                    "namedMethodId": 71.0,
-                    "id": 79.0,
+                    "namedMethodId": 85.0,
+                    "id": 93.0,
                     "name": "valid"
                   },
                   {
                     "representatives": [],
                     "equivalenceClassType": "VALID",
                     "namedInstanceId": 0.0,
-                    "namedMethodId": 71.0,
-                    "id": 80.0,
+                    "namedMethodId": 85.0,
+                    "id": 94.0,
                     "name": "boundaries"
                   },
                   {
                     "representatives": [
                       {
-                        "value": "{\"valueSemantics\":{\"kind\":\"DEFAULT\"},\"value\":0,\"fullTypeName\":\"int\"}",
+                        "value": "{\"fullTypeName\":\"int\",\"valueSemantics\":{\"kind\":\"DEFAULT\"},\"value\":0}",
                         "boundaryType": "NO",
                         "priority": 0.0,
-                        "id": 81.0,
+                        "id": 98.0,
                         "name": "ExampleName"
                       }
                     ],
                     "equivalenceClassType": "INVALID",
                     "namedInstanceId": 0.0,
-                    "namedMethodId": 71.0,
-                    "id": 82.0,
+                    "namedMethodId": 85.0,
+                    "id": 96.0,
                     "name": "invalid"
                   }
                 ],
                 "fullTypeName": "int",
                 "parameterModifier": "NONE",
                 "portType": "INPUT_PARAMETER",
-                "id": 57.0,
+                "id": 71.0,
                 "name": "input"
               }
             ],
@@ -1256,24 +1256,24 @@
                   {
                     "representatives": [
                       {
-                        "value": "{\"fullTypeName\":\"int\",\"valueSemantics\":{\"kind\":\"DEFAULT\"},\"value\":30}",
+                        "value": "{\"fullTypeName\":\"int\",\"valueSemantics\":{\"kind\":\"DEFAULT\"},\"value\":0}",
                         "boundaryType": "NO",
                         "priority": 0.0,
-                        "id": 84.0,
+                        "id": 100.0,
                         "name": "ExampleName"
                       }
                     ],
                     "equivalenceClassType": "VALID",
                     "namedInstanceId": 0.0,
-                    "namedMethodId": 71.0,
-                    "id": 83.0,
+                    "namedMethodId": 85.0,
+                    "id": 99.0,
                     "name": "valid"
                   }
                 ],
                 "fullTypeName": "int",
                 "parameterModifier": "NONE",
                 "portType": "EXPECTED_RESULT",
-                "id": 59.0,
+                "id": 73.0,
                 "name": "Expected Value"
               },
               {
@@ -1284,21 +1284,21 @@
                         "value": "{\"fullTypeName\":\"java.lang.Exception\",\"valueSemantics\":{\"kind\":\"DEFAULT\"},\"value\":[]}",
                         "boundaryType": "NO",
                         "priority": 0.0,
-                        "id": 86.0,
+                        "id": 102.0,
                         "name": "ExampleName"
                       }
                     ],
                     "equivalenceClassType": "INVALID",
                     "namedInstanceId": 0.0,
-                    "namedMethodId": 71.0,
-                    "id": 85.0,
+                    "namedMethodId": 85.0,
+                    "id": 101.0,
                     "name": "invalid"
                   }
                 ],
                 "fullTypeName": "java.lang.Exception",
                 "parameterModifier": "NONE",
                 "portType": "EXCEPTION",
-                "id": 58.0,
+                "id": 72.0,
                 "name": "Exception"
               },
               {
@@ -1306,7 +1306,7 @@
                 "fullTypeName": "int",
                 "parameterModifier": "NONE",
                 "portType": "SIDE_EFFECT",
-                "id": 74.0,
+                "id": 88.0,
                 "name": "Side Effects"
               },
               {
@@ -1314,7 +1314,7 @@
                 "fullTypeName": "int",
                 "parameterModifier": "NONE",
                 "portType": "CUSTOM_ASSERTION",
-                "id": 73.0,
+                "id": 87.0,
                 "name": "Custom Assertions"
               }
             ],
@@ -1323,7 +1323,7 @@
             ],
             "isAsync": false,
             "isStatic": true,
-            "id": 60.0,
+            "id": 74.0,
             "name": "util.chaining.Chain.multiplyPositiveByTen"
           },
           {
@@ -1333,40 +1333,40 @@
                   {
                     "representatives": [
                       {
-                        "value": "{\"fullTypeName\":\"int\",\"valueSemantics\":{\"kind\":\"SPECIAL_INPUT_PARAMETER\",\"namedMethodId\":71},\"value\":\"M1\"}",
+                        "value": "{\"fullTypeName\":\"int\",\"valueSemantics\":{\"kind\":\"SPECIAL_INPUT_PARAMETER\",\"namedMethodId\":85},\"value\":\"M1\"}",
                         "boundaryType": "NO",
                         "priority": 0.0,
-                        "id": 100.0,
+                        "id": 117.0,
                         "name": "ExampleName"
                       }
                     ],
                     "equivalenceClassType": "VALID",
                     "namedInstanceId": 0.0,
-                    "namedMethodId": 94.0,
-                    "id": 95.0,
+                    "namedMethodId": 110.0,
+                    "id": 111.0,
                     "name": "valid"
                   },
                   {
                     "representatives": [],
                     "equivalenceClassType": "VALID",
                     "namedInstanceId": 0.0,
-                    "namedMethodId": 94.0,
-                    "id": 96.0,
+                    "namedMethodId": 110.0,
+                    "id": 112.0,
                     "name": "boundaries"
                   },
                   {
                     "representatives": [],
                     "equivalenceClassType": "INVALID",
                     "namedInstanceId": 0.0,
-                    "namedMethodId": 94.0,
-                    "id": 97.0,
+                    "namedMethodId": 110.0,
+                    "id": 113.0,
                     "name": "invalid"
                   }
                 ],
                 "fullTypeName": "int",
                 "parameterModifier": "NONE",
                 "portType": "INPUT_PARAMETER",
-                "id": 89.0,
+                "id": 105.0,
                 "name": "input"
               }
             ],
@@ -1379,21 +1379,21 @@
                         "value": "{\"fullTypeName\":\"int\",\"valueSemantics\":{\"kind\":\"DEFAULT\"},\"value\":300}",
                         "boundaryType": "NO",
                         "priority": 0.0,
-                        "id": 102.0,
+                        "id": 119.0,
                         "name": "ExampleName"
                       }
                     ],
                     "equivalenceClassType": "VALID",
                     "namedInstanceId": 0.0,
-                    "namedMethodId": 94.0,
-                    "id": 101.0,
+                    "namedMethodId": 110.0,
+                    "id": 118.0,
                     "name": "valid"
                   }
                 ],
                 "fullTypeName": "int",
                 "parameterModifier": "NONE",
                 "portType": "EXPECTED_RESULT",
-                "id": 90.0,
+                "id": 106.0,
                 "name": "Expected Value"
               },
               {
@@ -1404,21 +1404,21 @@
                         "value": "{\"fullTypeName\":\"java.lang.Exception\",\"valueSemantics\":{\"kind\":\"DEFAULT\"},\"value\":[]}",
                         "boundaryType": "NO",
                         "priority": 0.0,
-                        "id": 104.0,
+                        "id": 121.0,
                         "name": "ExampleName"
                       }
                     ],
                     "equivalenceClassType": "INVALID",
                     "namedInstanceId": 0.0,
-                    "namedMethodId": 94.0,
-                    "id": 103.0,
+                    "namedMethodId": 110.0,
+                    "id": 120.0,
                     "name": "invalid"
                   }
                 ],
                 "fullTypeName": "java.lang.Exception",
                 "parameterModifier": "NONE",
                 "portType": "EXCEPTION",
-                "id": 91.0,
+                "id": 107.0,
                 "name": "Exception"
               },
               {
@@ -1426,7 +1426,7 @@
                 "fullTypeName": "int",
                 "parameterModifier": "NONE",
                 "portType": "SIDE_EFFECT",
-                "id": 93.0,
+                "id": 109.0,
                 "name": "Side Effects"
               },
               {
@@ -1434,7 +1434,7 @@
                 "fullTypeName": "int",
                 "parameterModifier": "NONE",
                 "portType": "CUSTOM_ASSERTION",
-                "id": 92.0,
+                "id": 108.0,
                 "name": "Custom Assertion"
               }
             ],
@@ -1442,7 +1442,7 @@
             "isAsync": false,
             "isStatic": true,
             "methodType": "METHOD",
-            "id": 87.0,
+            "id": 103.0,
             "name": "multiplyPositiveByTen",
             "description": "",
             "comment": ""
@@ -1454,18 +1454,18 @@
           "fullTypeName": "util.chaining.Chain",
           "parameterModifier": "NONE",
           "portType": "CLASS_INSTANCE",
-          "id": 55.0,
+          "id": 69.0,
           "name": "this"
         },
-        "id": 56.0,
+        "id": 70.0,
         "name": "Chain"
       }
     ],
     "testType": "METHOD_TEST",
     "generatedCodePath": "src/test/java/util/chaining/ChainTest.java",
-    "activeScenarioId": 72.0,
+    "activeScenarioId": 86.0,
     "knownTypes": [],
-    "id": 54.0,
+    "id": 68.0,
     "name": "Chain"
   }
 }
