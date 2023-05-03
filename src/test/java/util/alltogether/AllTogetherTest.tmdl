@@ -13816,7 +13816,7 @@
             ],
             "testCaseType": "POSITIVE",
             "id": 117.0,
-            "name": "Valid 18-25",
+            "name": "p1",
             "description": ""
           },
           {
@@ -13855,7 +13855,7 @@
             ],
             "testCaseType": "POSITIVE",
             "id": 119.0,
-            "name": "Valid 26+",
+            "name": "p2",
             "description": ""
           },
           {
@@ -13894,7 +13894,7 @@
             ],
             "testCaseType": "NEGATIVE",
             "id": 121.0,
-            "name": "Too Young",
+            "name": "n1",
             "description": "C1: Too Young"
           },
           {
@@ -13933,7 +13933,7 @@
             ],
             "testCaseType": "NEGATIVE",
             "id": 123.0,
-            "name": "Future DOB",
+            "name": "n2",
             "description": "C1: DOB in future"
           },
           {
@@ -13972,7 +13972,7 @@
             ],
             "testCaseType": "NEGATIVE",
             "id": 125.0,
-            "name": "Name too short",
+            "name": "n3",
             "description": "C1: Invalid name"
           }
         ],
