@@ -8,16 +8,22 @@ public class AllTogether {
     private final String name;
     private final int age;
 
-    public AllTogether(DateTime dob, String name) throws Exception {
-        this.name = name;
-        // Check date not in the future
+    public AllTogether(DateTime dob, String name) {
         DateTime now = new DateTime();
-        if(dob.isAfter(now)) {
-            throw new Exception("Date is in the future");
-        }
-        // Check not too young
         Period period = new Period(dob, now);
         this.age = period.getYears();
+        this.name = name;
+    }
+
+    public void validateUser() throws Exception {
+        // Check basic properties
+        if(name.length()<2) {
+            throw new Exception("Invalid name");
+        }
+        if(age<=0) {
+            throw new Exception("Invalid age");
+        }
+        // Check not too young
         if(this.age < 18) {
             throw new Exception("Too young");
         }
