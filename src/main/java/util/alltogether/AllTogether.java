@@ -3,18 +3,12 @@ package util.alltogether;
 import org.joda.time.DateTime;
 import org.joda.time.Period;
 
-import java.text.SimpleDateFormat;
-import java.time.Duration;
-import java.time.Instant;
-import java.util.Date;
 
 public class AllTogether {
-    private String countryCode;
-    private String name;
-    private int age;
+    private final String name;
+    private final int age;
 
-    public AllTogether(DateTime dob, String countryCode, String name) throws Exception {
-        this.countryCode = countryCode;
+    public AllTogether(DateTime dob, String name) throws Exception {
         this.name = name;
         // Check date not in the future
         DateTime now = new DateTime();
@@ -27,20 +21,13 @@ public class AllTogether {
         if(this.age < 18) {
             throw new Exception("Too young");
         }
-        // Check is US user
-        if(countryCode != "US") {
-            throw new Exception("Must be a US customer");
-        }
     }
 
     public CreditReturnStatus checkCredit(int creditSought, int duration) {
         CreditReturnStatus response = new CreditReturnStatus();
         response.approved = false;
 
-        if(age < 18) {
-            response.message = "You are too young";
-            return response;
-        } else if (age < 26) {
+        if (age < 26) {
             if(creditSought > 1000) {
                 response.message = "We only offer up to 1000 of credit between 18 and 25";
                 return response;
@@ -59,9 +46,9 @@ public class AllTogether {
                 response.message = "We offer max 48 months of credit";
                 return response;
             }
-            response.approved = true;
-            response.message = "Your credit has been approved";
         }
+        response.approved = true;
+        response.message = this.name + " : your credit has been approved";
         return response;
     }
 
