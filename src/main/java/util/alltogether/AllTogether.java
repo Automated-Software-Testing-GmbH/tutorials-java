@@ -15,7 +15,7 @@ public class AllTogether {
         this.name = name;
     }
 
-    public void validateUser() throws Exception {
+    public void validatePerson() throws Exception {
         // Check basic properties
         if(name.length()<2) {
             throw new Exception("Invalid name");
